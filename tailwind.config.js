@@ -27,8 +27,19 @@ export default {
       display: ["Lora"],
       body: ["DM Sans"]
     },
-    extend: {},
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1180px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
+    extend: {
+      fontSize: {
+        '2xs': '0.6rem'
+      },
+    },
   },
-  plugins: [],
+  plugins: [require('tailwind-hamburgers')],
 }
 
