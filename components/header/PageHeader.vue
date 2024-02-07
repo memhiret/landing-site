@@ -1,23 +1,34 @@
 <template>
-    <nav class="px-16 py-8 flex justify-between items-center">
-        <div class="gap-4 flex items-center">
-            <div>
-                <img class="h-16 w-auto" src="../../assets/imgs/Logo.png" alt="iLearn ET Logo">
-            </div>
-            <div>
-                <div class="text-black font-display text-xl xl:text-3xl">iLearn ET</div>
-                <p class="text-grokBlack-500 font-body text-xs xl:text-base">Moving the Needle</p>
+    <nav class="px-6 py-4 md:px-8 md:py-6 lg:px-12 flex items-center justify-between">
+        <div class="gap-2 md:gap-3 flex items-center">
+            <SvgoLogo id="icon-rm-mg" class="text-6xl md:text-7xl lg:text-8xl" />
+            <div class="hidden sm:block">
+                <div class="text-black font-display lg:text-4xl">iLearn ET</div>
+                <p class="text-grokBlack-500 font-body text-xs lg:text-xl">Moving the Needle</p>
             </div>
         </div>
-        <div>
-            <ul class="gap-8 xl:gap-24 flex justify-between font-body">
+        <!-- Mobile Nav Links -->
+        <div class="md:hidden">
+            <ul class="gap-8 flex justify-between font-body text-xs">
                 <li>Exam Prep</li>
-                <li>Study Guides</li>
+                <li>Study Guide</li>
+            </ul>
+        </div>
+        <!-- Nav Links -->
+        <div class="hidden md:block">
+            <ul class="gap-8 lg:gap-24 flex justify-between font-body text-sm lg:text-xl">
+                <li>Exam Prep</li>
+                <li>Study Guide</li>
                 <li>Articles</li>
             </ul>
         </div>
-        <div class="gap-8 flex items-center font-body">
-            <div class="text-sm xl:text-xl font-medium text-black">Login</div>
+        <!-- Mobile Hamburger Menu -->
+        <div class="sm:hidden">
+            <ButtonsHamburger />
+        </div>
+        <!-- Desktop Actions -->
+        <div class="hidden sm:flex gap-4 lg:gap-8 items-center font-body">
+            <div class="font-medium text-black sm:text-sm md:text-base lg:text-xl">Login</div>
             <MainButton :buttonText="buttonText" :buttonLink="buttonLink" />
         </div>
     </nav>

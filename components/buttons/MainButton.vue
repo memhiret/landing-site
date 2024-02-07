@@ -1,5 +1,7 @@
 <template>
-    <button class="bg-grokBlue-500 text-grokWhite-500 py-3 px-6 rounded-lg" @click="redirectToLink">
+    <button
+        class="py-1 px-2 sm:py-2 sm:px-4 lg:py-3 lg:px-4 bg-grokBlue-500 text-grokWhite-500 sm:text-sm md:text-base lg:text-lg rounded-lg"
+        @click="redirectToLink">
         {{ buttonText }}
     </button>
 </template>

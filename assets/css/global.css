@@ -12,3 +12,6 @@
     src: url('../fonts/DMSans.ttf') format('truetype');
 }
 
+#icon-rm-mg{
+    margin: 0 !important;
+}
