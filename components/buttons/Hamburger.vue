@@ -5,12 +5,6 @@
             </div>
         </div>
     </div>
-
-    <div id="hamburger" class="hidden text-xs">
-        <div>About</div>
-        <div>Articles</div>
-        <div>Login</div>
-    </div>
 </template>
 
 <script>
@@ -30,6 +24,7 @@ export default {
         toggleMenu() {
             document.querySelector('.tham').classList.toggle('tham-active')
             document.querySelector('#hamburger').classList.toggle('hidden')
+            document.querySelector('#overlay').classList.toggle('overlay')
         }
     }
 }

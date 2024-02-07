@@ -7,28 +7,31 @@
                 <p class="text-grokBlack-500 font-body text-xs lg:text-xl">Moving the Needle</p>
             </div>
         </div>
-        <!-- Mobile Nav Links -->
-        <div class="md:hidden">
-            <ul class="gap-8 flex justify-between font-body text-xs">
-                <li>Exam Prep</li>
-                <li>Study Guide</li>
-            </ul>
-        </div>
         <!-- Nav Links -->
-        <div class="hidden md:block">
+        <div>
             <ul class="gap-8 lg:gap-24 flex justify-between font-body text-sm lg:text-xl">
-                <li>Exam Prep</li>
-                <li>Study Guide</li>
-                <li>Articles</li>
+                <a class="cursor-pointer">
+                    <li class="text-button-links">
+                        Exam Prep</li>
+                </a>
+                <a class="cursor-pointer">
+                    <li class="text-button-links">
+                        Study Guide</li>
+                </a>
+                <a class="cursor-pointer">
+                    <li class="hidden md:block text-button-links">
+                        Articles</li>
+                </a>
             </ul>
         </div>
         <!-- Mobile Hamburger Menu -->
         <div class="sm:hidden">
             <ButtonsHamburger />
         </div>
+        <HeaderHamburgerMenu />
         <!-- Desktop Actions -->
         <div class="hidden sm:flex gap-4 lg:gap-8 items-center font-body">
-            <div class="font-medium text-black sm:text-sm md:text-base lg:text-xl">Login</div>
+            <button class="font-medium text-black sm:text-sm md:text-base lg:text-xl text-button-links">Login</button>
             <MainButton :buttonText="buttonText" :buttonLink="buttonLink" />
         </div>
     </nav>
