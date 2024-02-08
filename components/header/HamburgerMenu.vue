@@ -10,7 +10,7 @@
             <a>
                 <li class="active:text-grokBlue-500">Login</li>
             </a>
-            <MainButton :buttonText="buttonText" :buttonLink="buttonLink" />
+            <MainButton :class="buttonClass" :buttonText="buttonText" :buttonLink="buttonLink" />
         </ul>
     </div>
 </template>
@@ -24,6 +24,7 @@ export default {
     },
     data() {
         return {
+            buttonClass: 'py-1 px-2 sm:py-2 sm:px-4 lg:py-3 lg:px-4 sm:text-sm md:text-base lg:text-lg main-button',
             buttonText: 'Get Started',
             buttonLink: 'https://www.google.com'
         };

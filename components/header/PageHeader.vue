@@ -1,5 +1,6 @@
 <template>
     <nav class="px-6 py-4 md:px-8 md:py-6 lg:px-12 flex items-center justify-between">
+        <!-- Header Logo -->
         <div class="gap-2 md:gap-3 flex items-center">
             <SvgoLogo id="icon-rm-mg" class="text-6xl md:text-7xl lg:text-8xl" />
             <div class="hidden sm:block">
@@ -32,7 +33,7 @@
         <!-- Desktop Actions -->
         <div class="hidden sm:flex gap-4 lg:gap-8 items-center font-body">
             <button class="font-medium text-black sm:text-sm md:text-base lg:text-xl text-button-links">Login</button>
-            <MainButton :buttonText="buttonText" :buttonLink="buttonLink" />
+            <MainButton :class="buttonClass" :buttonText="buttonText" :buttonLink="buttonLink" />
         </div>
     </nav>
 </template>
@@ -46,6 +47,7 @@ export default {
     },
     data() {
         return {
+            buttonClass: 'py-1 px-2 sm:py-2 sm:px-4 lg:py-3 lg:px-4 sm:text-sm md:text-base lg:text-lg main-button',
             buttonText: 'Get Started',
             buttonLink: 'https://www.google.com'
         };

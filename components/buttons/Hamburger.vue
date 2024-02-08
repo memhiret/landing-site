@@ -8,18 +8,8 @@
 </template>
 
 <script>
-import MainButton from "~/components/buttons/MainButton.vue";
 
 export default {
-    components: {
-        MainButton
-    },
-    data() {
-        return {
-            buttonText: 'Get Started',
-            buttonLink: 'https://www.google.com'
-        };
-    },
     methods: {
         toggleMenu() {
             document.querySelector('.tham').classList.toggle('tham-active')
