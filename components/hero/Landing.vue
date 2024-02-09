@@ -4,7 +4,7 @@
             <div class="my-4 px-6 flex flex-col gap-2 items-center justify-center">
                 <p class="font-display font-medium text-2xl">No More Text Anxiety,</p>
                 <p class="font-display font-thin">Just Pure Text-Taking Mastery</p>
-                <p class="my-1 font-body font-light text-xs text-center text-grokBlack-500">Personalized study paths and
+                <p class="my-1 desc-text text-xs">Personalized study paths and
                     test
                     preparation
                     guides,<br>helping you ace
@@ -12,7 +12,7 @@
             </div>
             <div class="flex gap-12 font-body text-sm">
                 <MainButton :class="buttonClass2" :buttonText="buttonText2" :buttonLink="buttonLink2" />
-                <MainButton :class="buttonClass" :buttonText="buttonText" :buttonLink="buttonLink" />
+                <MainButton :class="buttonClass1" :buttonText="buttonText1" :buttonLink="buttonLink1" />
             </div>
         </div>
         <div class="flex flex-col gap-2 items-center ">
@@ -49,9 +49,9 @@ export default {
     },
     data() {
         return {
-            buttonClass: 'w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 sm:text-sm md:text-base lg:text-lg main-button',
-            buttonText: 'Get Started',
-            buttonLink: 'https://www.google.com',
+            buttonClass1: 'w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 sm:text-sm md:text-base lg:text-lg main-button',
+            buttonText1: 'Get Started',
+            buttonLink1: 'https://www.google.com',
             buttonClass2: 'w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 sm:text-sm md:text-base lg:text-lg alt-button',
             buttonText2: 'Explore',
             buttonLink2: 'https://www.google.com',

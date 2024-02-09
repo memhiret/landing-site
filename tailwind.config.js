@@ -9,20 +9,6 @@ export default {
     "./error.vue",
   ],
   theme: {
-    colors: {
-      'grokBlue': {
-        500: '#2D68FE',
-      },
-      'grokWhite': {
-        500: '#F8F9F5',
-      },
-      'grokBlack': {
-        500: '#1E2328',
-      },
-      'grokYellow': {
-        500: '#FED053',
-      },
-    },
     fontFamily: {
       display: ["Lora"],
       body: ["DM Sans"]
@@ -36,8 +22,23 @@ export default {
     },
     extend: {
       fontSize: {
-        '2xs': '0.6rem'
+        '2xs': '0.6rem',
+        '3xs': '0.5rem'
       },
+      colors: {
+        'grokBlue': {
+          500: '#2D68FE',
+        },
+        'grokWhite': {
+          500: '#F8F9F5',
+        },
+        'grokBlack': {
+          500: '#1E2328',
+        },
+        'grokYellow': {
+          500: '#FED053',
+        },
+      }
     },
   },
   plugins: [require('tailwind-hamburgers')],

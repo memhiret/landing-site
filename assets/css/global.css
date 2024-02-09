@@ -12,8 +12,12 @@
     src: url('../fonts/DMSans.ttf') format('truetype');
 }
 
-#icon-rm-mg {
+.icon-rm-mg {
     margin: 0 !important;
+}
+
+.icon-rm-fill {
+    fill: none !important;
 }
 
 .overlay {
@@ -24,4 +28,14 @@
     width: 100%;
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.3);
+}
+
+@layer component {
+    .col-flex {
+        @apply flex flex-col items-stretch
+    }
+
+    .desc-text {
+        @apply font-body font-light text-center text-grokBlack-500
+    }
 }

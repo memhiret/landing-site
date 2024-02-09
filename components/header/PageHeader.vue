@@ -2,7 +2,7 @@
     <nav class="px-6 py-4 md:px-8 md:py-6 lg:px-12 flex items-center justify-between">
         <!-- Header Logo -->
         <div class="gap-2 md:gap-3 flex items-center">
-            <SvgoLogo id="icon-rm-mg" class="text-6xl md:text-7xl lg:text-8xl" />
+            <SvgoLogo class="icon-rm-mg text-6xl md:text-7xl lg:text-8xl" />
             <div class="hidden sm:block">
                 <div class="text-black font-display lg:text-4xl">iLearn ET</div>
                 <p class="text-grokBlack-500 font-body text-xs lg:text-xl">Moving the Needle</p>
