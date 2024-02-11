@@ -33,6 +33,7 @@ export default {
           500: '#F8F9F5',
         },
         'grokBlack': {
+          300: '#1E1E1E',
           500: '#1E2328',
         },
         'grokYellow': {

@@ -6,12 +6,7 @@
                 exhilarating. We leverage science-backed and interactive methods to build tools that make learning efficient
                 and fun.</p>
         </div>
-        <ul class="flex items-center gap-4 px-1 py-1 text-grokBlack-500 text-2xs font-body bg-grokBlack-500 bg-opacity-5 rounded-lg">
-            <li class="ps-2 pe-5 py-2 bg-white rounded-md">Test-Prep</li>
-            <li class="ps-2 pe-5 py-2">Study-Guide</li>
-            <li class="ps-2 pe-5 py-2">Exam Techniques</li>
-        </ul>
-        <GrokOfferFeat />
+        <GrokOfferTab />
     </div>
 </template>
 

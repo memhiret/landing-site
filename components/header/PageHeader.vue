@@ -10,7 +10,7 @@
         </div>
         <!-- Nav Links -->
         <div>
-            <ul class="gap-8 lg:gap-24 flex justify-between font-body text-sm lg:text-xl">
+            <ul class="flex justify-between gap-8 lg:gap-24 font-body text-sm lg:text-xl">
                 <a class="cursor-pointer">
                     <li class="text-button-links">
                         Exam Prep</li>

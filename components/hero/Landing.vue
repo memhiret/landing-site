@@ -1,10 +1,10 @@
 <template>
-    <div class="flex flex-col gap-10">
+    <div class="px-6 md:px-8 md:py-6 lg:px-12 flex flex-col gap-10">
         <div class="flex flex-col gap-4 items-center">
             <div class="my-4 px-6 flex flex-col gap-2 items-center justify-center">
                 <p class="font-display font-medium text-2xl">No More Text Anxiety,</p>
                 <p class="font-display font-thin">Just Pure Text-Taking Mastery</p>
-                <p class="my-1 desc-text text-xs">Personalized study paths and
+                <p class="my-1 desc-text text-2xs">Personalized study paths and
                     test
                     preparation
                     guides,<br>helping you ace
@@ -15,8 +15,8 @@
                 <MainButton :class="buttonClass1" :buttonText="buttonText1" :buttonLink="buttonLink1" />
             </div>
         </div>
-        <div class="flex flex-col gap-2 items-center ">
-            <div class="flex justify-center gap-6">
+        <div class="flex flex-col gap-2 items-center">
+            <div class="flex justify-between w-full">
                 <div class="flex gap-2">
                     <img class="h-4 w-auto" src="~/assets/imgs/math-book.png">
                     <p class="font-body text-xs">Math</p>

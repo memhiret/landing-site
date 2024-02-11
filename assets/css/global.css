@@ -12,12 +12,18 @@
     src: url('../fonts/DMSans.ttf') format('truetype');
 }
 
-.icon-rm-mg {
-    margin: 0 !important;
+.divider {
+	background: -webkit-radial-gradient(center center, 50% 50%, rgba(0,0,0,.1), transparent);
+	background-repeat: no-repeat;
+	background-position: 0 -10px;
+	background-size: 100% 20px;
+	border-top: 1px solid #dedede;
+	box-shadow: 0 -1px 0 0 white;
+	height: 20px;
 }
 
-.icon-rm-fill {
-    fill: none !important;
+.icon-rm-mg {
+    margin: 0 !important;
 }
 
 .overlay {
@@ -30,7 +36,7 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-@layer component {
+@layer components {
     .col-flex {
         @apply flex flex-col items-stretch
     }

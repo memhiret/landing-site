@@ -8,17 +8,17 @@
         <div class="col-flex gap-12">
             <GrokFeat :featureHead="featureHead1" :featureDesc="featureDesc1">
                 <template #svg-picture>
-                    <SvgoTest class="icon-rm-mg text-9xl" />
+                    <SvgoTest class="icon-rm-mg text-9xl" filled/>
                 </template>
             </GrokFeat>
             <GrokFeat :featureHead="featureHead2" :featureDesc="featureDesc2">
                 <template #svg-picture>
-                    <SvgoExams class="icon-rm-mg text-9xl" />
+                    <SvgoExams class="icon-rm-mg text-9xl" filled/>
                 </template>
             </GrokFeat>
             <GrokFeat :featureHead="featureHead3" :featureDesc="featureDesc3">
                 <template #svg-picture>
-                    <SvgoSorting class="icon-rm-mg text-9xl" />
+                    <SvgoSorting class="icon-rm-mg text-9xl" filled/>
                 </template>
             </GrokFeat>
         </div>

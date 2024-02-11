@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col gap-4 items-center">
-        <slot name="svg-picture" class="icon-rm-fill"></slot>
+        <slot name="svg-picture"></slot>
         <div class="flex flex-col gap-2 items-center font-body font-medium">
             <p>{{ featureHead }}</p>
             <p class="desc-text text-2xs">{{ featureDesc }}</p>
