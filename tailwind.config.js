@@ -14,6 +14,7 @@ export default {
       body: ["DM Sans"]
     },
     screens: {
+      'mobm': '375px',
       'sm': '640px',
       'md': '768px',
       'lg': '1180px',

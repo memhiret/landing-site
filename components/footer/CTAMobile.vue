@@ -1,5 +1,5 @@
 <template>
-    <div class="px-4 py-6 flex flex-col gap-6 items-center font-body">
+    <div class="px-4 mobm:px-6 py-6 flex flex-col gap-6 items-center font-body">
         <div class="flex flex-col gap-4 items-center">
             <img src="~/assets/imgs/Showcase.png" class="rounded-md">
             <div class="flex flex-col gap-2">

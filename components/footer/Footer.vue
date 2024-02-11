@@ -3,7 +3,7 @@
     <div class="relative">
         <FooterCTAMobile />
         <FooterCTA />
-        <div class="flex py-4 px-4 bg-grokBlack-500">
+        <div class="flex py-4 px-4 mobm:px-6 bg-grokBlack-500">
             <div class="w-1/2 mr-8">
                 <div class="gap-2 md:gap-3 flex items-center">
                     <SvgoLogo class="icon-rm-mg text-6xl md:text-7xl lg:text-8xl  text-grokWhite-500" />
