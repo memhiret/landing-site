@@ -1,10 +1,10 @@
 <template>
-    <div class="px-6 md:px-8 md:py-6 lg:px-12 flex flex-col gap-10">
+    <div class="w-full px-4 md:px-8 md:py-6 lg:px-12 flex flex-col gap-10">
         <div class="flex flex-col gap-4 items-center">
-            <div class="my-4 px-6 flex flex-col gap-2 items-center justify-center">
-                <p class="font-display font-medium text-2xl">No More Text Anxiety,</p>
-                <p class="font-display font-thin">Just Pure Text-Taking Mastery</p>
-                <p class="my-1 desc-text text-2xs">Personalized study paths and
+            <div class="my-4 px-6 flex flex-col gap-2 items-center justify-center text-center">
+                <p class="font-display font-medium text-xl">No More Text Anxiety,</p>
+                <p class="font-display font-thin text-sm">Just Pure Text-Taking Mastery</p>
+                <p class="my-1 desc-text text-3xs">Personalized study paths and
                     test
                     preparation
                     guides,<br>helping you ace

@@ -1,8 +1,8 @@
 <template>
-    <div class="col-flex gap-6 bg-grokBlack-500 py-6 px-8 bg-opacity-5">
+    <div class="col-flex gap-6 bg-grokBlack-500 py-6 px-4 bg-opacity-5">
         <div class="flex flex-col gap-2 items-center">
-            <p class="font-display font-medium text-2xl">Meet GrokET</p>
-            <p class="desc-text text-2xs">Leveraging data-driven insights and proven learning science,
+            <p class="font-display font-medium text-xl">Meet GrokET</p>
+            <p class="desc-text text-3xs">Leveraging data-driven insights and proven learning science,
                 GrokET personalizes your path to standardized exam mastery.</p>
         </div>
         <div class="col-flex gap-12">

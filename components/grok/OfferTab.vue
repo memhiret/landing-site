@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col gap-6">
+    <div class="flex flex-col gap-4">
         <ul
             class="tab flex items-center gap-4 px-1 py-1 text-grokBlack-500 text-3xs font-body bg-grokBlack-500 bg-opacity-5 rounded-lg">
             <li :class="[activeTab === index ? activeTabClass : defTabClass]" v-for="(tab, index) in tabs" :key="index"

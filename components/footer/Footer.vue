@@ -8,7 +8,7 @@
                 <div class="gap-2 md:gap-3 flex items-center">
                     <SvgoLogo class="icon-rm-mg text-6xl md:text-7xl lg:text-8xl  text-grokWhite-500" />
                     <div class="">
-                        <div class="text-white font-display">iLearn ET</div>
+                        <div class="text-white font-display text-sm">iLearn ET</div>
                         <p class="text-grokWhite-500 font-body text-3xs">Moving the Needle</p>
                     </div>
                 </div>
@@ -36,8 +36,8 @@
                     </div>
                 </div>
             </div>
-            <div class="w-1/2 mt-4 flex flex-col gap-4">
-                <div class="flex">
+            <div class="w-1/2 mt-2 flex flex-col gap-4">
+                <div class="flex gap-2">
                     <div class="basis-1/2 flex flex-col gap-2">
                         <p class="text-grokWhite-500 text-xs">Download</p>
                         <div class="flex flex-col items-start gap-2">
@@ -53,7 +53,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="flex">
+                <div class="flex gap-2">
                     <div class="basis-1/2 flex flex-col gap-2">
                         <p class="text-grokWhite-500 text-xs">Help</p>
                         <ul class="flex flex-col gap-1 text-2xs text-grokWhite-500 text-opacity-60">
@@ -62,9 +62,13 @@
                         </ul>
                     </div>
                     <div class="basis-1/2 flex flex-col gap-2 text-3xs text-grokWhite-500 text-opacity-60">
-                        <p>iLearn ET P.L.C.</p>
-                        <p>All Rights Reserved</p>
+                        <p>Privacy Policy</p>
+                        <p>Terms & Conditions</p>
                     </div>
+
+                </div>
+                <div class="flex gap-1 text-3xs text-grokWhite-500 text-opacity-60">
+                    <p class="basis-1/2">iLearn ET P.L.C.</p>
                 </div>
 
             </div>

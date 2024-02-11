@@ -1,5 +1,5 @@
 <template>
-    <nav class="px-6 py-4 md:px-8 md:py-6 lg:px-12 flex items-center justify-between">
+    <nav class="px-4 py-4 md:px-8 md:py-6 lg:px-12 flex items-center justify-between">
         <!-- Header Logo -->
         <div class="gap-2 md:gap-3 flex items-center">
             <SvgoLogo class="icon-rm-mg text-6xl md:text-7xl lg:text-8xl" />
@@ -10,7 +10,7 @@
         </div>
         <!-- Nav Links -->
         <div>
-            <ul class="flex justify-between gap-8 lg:gap-24 font-body text-sm lg:text-xl">
+            <ul class="flex justify-between gap-8 lg:gap-24 font-body text-2xs lg:text-xl">
                 <a class="cursor-pointer">
                     <li class="text-button-links">
                         Exam Prep</li>
