@@ -1,10 +1,10 @@
 <template>
-    <div class="w-full px-4 mobm:px-6 md:px-8 md:py-6 lg:px-12 flex flex-col gap-10">
+    <div class="w-full responsive-px md:px-8 md:py-6 lg:px-12 flex flex-col gap-10">
         <div class="flex flex-col gap-4 items-center">
             <div class="my-4 px-6 flex flex-col gap-2 items-center justify-center text-center">
-                <p class="font-display font-medium text-xl mobm:text-2xl">No More Text Anxiety,</p>
-                <p class="font-display font-thin text-sm mobm:text-base">Just Pure Text-Taking Mastery</p>
-                <p class="my-1 desc-text text-3xs mobm:text-2xs">Personalized study paths and
+                <p class="font-display font-medium responsive-heading">No More Text Anxiety,</p>
+                <p class="font-display font-thin responsive-subheading">Just Pure Text-Taking Mastery</p>
+                <p class="my-1 desc-text responsive-description">Personalized study paths and
                     test
                     preparation
                     guides,<br>helping you ace
@@ -15,26 +15,26 @@
                 <MainButton :class="buttonClass1" :buttonText="buttonText1" :buttonLink="buttonLink1" />
             </div>
         </div>
-        <div class="flex flex-col gap-2 items-center">
-            <div class="flex justify-between w-full">
-                <div class="flex gap-2">
-                    <img class="h-4 w-auto" src="~/assets/imgs/math-book.png">
-                    <p class="font-body text-xs">Math</p>
+        <div class="flex flex-col gap-2 md:gap-4 items-center">
+            <div class="flex justify-between w-full md:w-8/12">
+                <div class="flex gap-2 items-center">
+                    <img class="h-4 w-auto md:h-6" src="~/assets/imgs/math-book.png">
+                    <p class="font-body text-xs md:text-base">Math</p>
                 </div>
-                <div class="flex gap-2">
-                    <img class="h-4 w-auto" src="~/assets/imgs/atomic.png">
-                    <p class="font-body text-xs">Physics</p>
+                <div class="flex gap-2 items-center">
+                    <img class="h-4 w-auto md:h-6" src="~/assets/imgs/atomic.png">
+                    <p class="font-body text-xs md:text-base">Physics</p>
                 </div>
-                <div class="flex gap-2">
-                    <img class="h-4 w-auto" src="~/assets/imgs/biology.png">
-                    <p class="font-body text-xs">Biology</p>
+                <div class="flex gap-2 items-center">
+                    <img class="h-4 w-auto md:h-6" src="~/assets/imgs/biology.png">
+                    <p class="font-body text-xs md:text-base">Biology</p>
                 </div>
-                <div class="flex gap-2">
-                    <img class="h-4 w-auto" src="~/assets/imgs/chemistry.png">
-                    <p class="font-body text-xs">Chemistry</p>
+                <div class="flex gap-2 items-center">
+                    <img class="h-4 w-auto md:h-6" src="~/assets/imgs/chemistry.png">
+                    <p class="font-body text-xs md:text-base">Chemistry</p>
                 </div>
             </div>
-            <p class="font-body text-2xs">and so much more...</p>
+            <p class="font-body text-2xs md:text-sm">and so much more...</p>
         </div>
 
     </div>

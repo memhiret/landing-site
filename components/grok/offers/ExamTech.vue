@@ -1,12 +1,11 @@
 <template>
-    <div class="flex flex-col gap-6 justify-between items-start">
-        <div>
+    <div class="flex flex-col md:flex-row-reverse gap-6 justify-between items-start  md:items-center">
+        <div class="basis-1/2">
             <img class="h-auto w-auto rounded-sm" src="~/assets/imgs/Taking.jpg">
         </div>
-        <div class="flex flex-col gap-4 items-start">
-            <p class="hidden shadow-xl ps-2 pe-12 py-1 text-2xs border rounded-md">Exam Techniques</p>
-            <p class="font-medium">Exam & Test Taking Techniques</p>
-            <p class="font-body text-grokBlack-500 text-opacity-50 text-2xs">Bite-sized content, gamified experiences, and
+        <div class="basis-1/2 flex flex-col gap-4 md:gap-8 items-start">
+            <p class="font-medium md:text-2xl">Exam & Test Taking Techniques</p>
+            <p class="font-body text-grokBlack-500 text-opacity-50 responsive-description">Bite-sized content, gamified experiences, and
                 powerful recall techniques ensure you master challenging concepts and conquer those standardized exams with
                 confidence.</p>
             <MainButton :class="buttonClass" :buttonText="buttonText" :buttonLink="buttonLink" />

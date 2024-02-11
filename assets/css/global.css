@@ -13,13 +13,13 @@
 }
 
 .divider {
-	background: -webkit-radial-gradient(center center, 50% 50%, rgba(0,0,0,.1), transparent);
-	background-repeat: no-repeat;
-	background-position: 0 -10px;
-	background-size: 100% 20px;
-	border-top: 1px solid #dedede;
-	box-shadow: 0 -1px 0 0 white;
-	height: 20px;
+    background: -webkit-radial-gradient(center center, 50% 50%, rgba(0, 0, 0, .1), transparent);
+    background-repeat: no-repeat;
+    background-position: 0 -10px;
+    background-size: 100% 20px;
+    border-top: 1px solid #dedede;
+    box-shadow: 0 -1px 0 0 white;
+    height: 20px;
 }
 
 .icon-rm-mg {
@@ -38,10 +38,30 @@
 
 @layer components {
     .col-flex {
-        @apply flex flex-col items-stretch
+        @apply flex flex-col items-center
     }
 
     .desc-text {
         @apply font-body font-light text-center text-grokBlack-500
+    }
+
+    .responsive-px {
+        @apply px-4 mobm:px-6
+    }
+
+    .responsive-link-text {
+        @apply text-2xs mobm:text-xs md:text-sm
+    }
+
+    .responsive-heading {
+        @apply text-xl mobm:text-2xl md:text-4xl
+    }
+
+    .responsive-subheading {
+        @apply text-sm mobm:text-base md:text-2xl
+    }
+
+    .responsive-description {
+        @apply text-3xs mobm:text-2xs md:text-xs
     }
 }

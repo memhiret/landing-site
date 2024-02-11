@@ -1,11 +1,11 @@
 <template>
-    <div class="col-flex gap-6 bg-grokBlack-500 py-6 px-4 mobm:px-6 bg-opacity-5">
-        <div class="flex flex-col gap-2 items-center">
-            <p class="font-display font-medium text-xl mobm:text-2xl">Meet GrokET</p>
-            <p class="desc-text text-3xs mobm:text-2xs">Leveraging data-driven insights and proven learning science,
+    <div class="w-full col-flex gap-6 bg-grokBlack-500 py-6 responsive-px bg-opacity-5">
+        <div class="md:w-3/4 flex flex-col gap-2 md:gap-4 items-center">
+            <p class="font-display font-medium responsive-heading">Meet GrokET</p>
+            <p class="desc-text responsive-description">Leveraging data-driven insights and proven learning science,
                 GrokET personalizes your path to standardized exam mastery.</p>
         </div>
-        <div class="col-flex gap-12">
+        <div class="md:w-3/4 col-flex gap-12">
             <GrokFeat :featureHead="featureHead1" :featureDesc="featureDesc1">
                 <template #svg-picture>
                     <SvgoTest class="icon-rm-mg text-9xl" filled/>

@@ -1,7 +1,7 @@
 <template>
-    <div class="flex flex-col gap-4">
+    <div class="md:w-10/12 flex flex-col gap-4 md:gap-10">
         <ul
-            class="tab flex items-center gap-4 px-1 py-1 text-grokBlack-500 text-3xs font-body bg-grokBlack-500 bg-opacity-5 rounded-lg">
+            class="tab flex items-center gap-4 px-1 py-1 text-grokBlack-500 text-3xs md:text-xs font-body bg-grokBlack-500 bg-opacity-5 rounded-lg">
             <li :class="[activeTab === index ? activeTabClass : defTabClass]" v-for="(tab, index) in tabs" :key="index"
                 @click="activeTab = index">
                 {{ tab }}</li>

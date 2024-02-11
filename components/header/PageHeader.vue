@@ -1,5 +1,5 @@
 <template>
-    <nav class="px-4 mobm:px-6 py-4 md:px-8 md:py-6 lg:px-12 flex items-center justify-between">
+    <nav class="responsive-px py-4 md:px-8 md:py-6 lg:px-12 flex items-center justify-between">
         <!-- Header Logo -->
         <div class="gap-2 md:gap-3 flex items-center">
             <SvgoLogo class="icon-rm-mg text-6xl md:text-7xl lg:text-8xl" />
@@ -10,7 +10,7 @@
         </div>
         <!-- Nav Links -->
         <div>
-            <ul class="flex justify-between gap-8 lg:gap-24 font-body text-2xs mobm:text-xs lg:text-xl">
+            <ul class="flex justify-between gap-8 lg:gap-24 font-body responsive-link-text lg:text-xl">
                 <a class="cursor-pointer">
                     <li class="text-button-links">
                         Exam Prep</li>
@@ -32,7 +32,6 @@
         <HeaderHamburgerMenu />
         <!-- Desktop Actions -->
         <div class="hidden sm:flex gap-4 lg:gap-8 items-center font-body">
-            <button class="font-medium text-black sm:text-sm md:text-base lg:text-xl text-button-links">Login</button>
             <MainButton :class="buttonClass" :buttonText="buttonText" :buttonLink="buttonLink" />
         </div>
     </nav>
