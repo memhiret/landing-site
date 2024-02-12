@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full responsive-px md:px-8 md:py-6 lg:px-12 flex flex-col gap-10">
+    <div class="w-full responsive-px md:py-6 flex flex-col gap-10">
         <div class="flex flex-col gap-4 items-center">
             <div class="my-4 px-6 flex flex-col gap-2 items-center justify-center text-center">
                 <p class="font-display font-medium responsive-heading">No More Text Anxiety,</p>
@@ -10,31 +10,31 @@
                     guides,<br>helping you ace
                     your next test.</p>
             </div>
-            <div class="flex gap-12 font-body text-sm">
+            <div class="flex gap-12 lg:gap-24 font-body text-sm">
                 <MainButton :class="buttonClass2" :buttonText="buttonText2" :buttonLink="buttonLink2" />
                 <MainButton :class="buttonClass1" :buttonText="buttonText1" :buttonLink="buttonLink1" />
             </div>
         </div>
         <div class="flex flex-col gap-2 md:gap-4 items-center">
             <div class="flex justify-between w-full md:w-8/12">
-                <div class="flex gap-2 items-center">
-                    <img class="h-4 w-auto md:h-6" src="~/assets/imgs/math-book.png">
-                    <p class="font-body text-xs md:text-base">Math</p>
+                <div class="flex gap-2 lg:gap-4 items-center">
+                    <img class="h-4 w-auto md:h-6 lg:h-8" src="~/assets/imgs/math-book.png">
+                    <p class="font-body responsive-captions">Math</p>
                 </div>
-                <div class="flex gap-2 items-center">
-                    <img class="h-4 w-auto md:h-6" src="~/assets/imgs/atomic.png">
-                    <p class="font-body text-xs md:text-base">Physics</p>
+                <div class="flex gap-2 lg:gap-4 items-center">
+                    <img class="h-4 w-auto md:h-6 lg:h-8" src="~/assets/imgs/atomic.png">
+                    <p class="font-body responsive-captions">Physics</p>
                 </div>
-                <div class="flex gap-2 items-center">
-                    <img class="h-4 w-auto md:h-6" src="~/assets/imgs/biology.png">
-                    <p class="font-body text-xs md:text-base">Biology</p>
+                <div class="flex gap-2 lg:gap-4 items-center">
+                    <img class="h-4 w-auto md:h-6 lg:h-8" src="~/assets/imgs/biology.png">
+                    <p class="font-body responsive-captions">Biology</p>
                 </div>
-                <div class="flex gap-2 items-center">
-                    <img class="h-4 w-auto md:h-6" src="~/assets/imgs/chemistry.png">
-                    <p class="font-body text-xs md:text-base">Chemistry</p>
+                <div class="flex gap-2 lg:gap-4 items-center">
+                    <img class="h-4 w-auto md:h-6 lg:h-8" src="~/assets/imgs/chemistry.png">
+                    <p class="font-body responsive-captions">Chemistry</p>
                 </div>
             </div>
-            <p class="font-body text-2xs md:text-sm">and more...</p>
+            <p class="font-body text-2xs md:text-sm lg:text-base">and more...</p>
         </div>
 
     </div>

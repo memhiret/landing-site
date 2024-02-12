@@ -1,5 +1,5 @@
 <template>
-    <nav class="responsive-px py-4 md:px-8 md:py-6 lg:px-12 flex items-center justify-between">
+    <nav class="responsive-px py-4 md:px-8 md:py-6 flex items-center justify-between">
         <!-- Header Logo -->
         <div class="gap-2 md:gap-3 flex items-center">
             <SvgoLogo class="icon-rm-mg text-6xl md:text-7xl lg:text-8xl" />

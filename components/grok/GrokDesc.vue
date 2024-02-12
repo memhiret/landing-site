@@ -1,24 +1,24 @@
 <template>
-    <div class="w-full col-flex gap-6 bg-grokBlack-500 py-6 responsive-px bg-opacity-5">
-        <div class="md:w-3/4 flex flex-col gap-2 md:gap-4 items-center">
+    <div class="w-full col-flex gap-6 lg:gap-12 bg-grokBlack-500 py-6 lg:py-12 responsive-px bg-opacity-5">
+        <div class="md:w-3/4 lg:w-1/2 flex flex-col gap-2 md:gap-4 lg:gap-8 items-center">
             <p class="font-display font-medium responsive-heading">Meet GrokET</p>
             <p class="desc-text responsive-description">Leveraging data-driven insights and proven learning science,
                 GrokET personalizes your path to standardized exam mastery.</p>
         </div>
-        <div class="md:w-3/4 col-flex gap-12">
+        <div class="md:w-3/4 col-flex gap-12 lg:gap-16">
             <GrokFeat :featureHead="featureHead1" :featureDesc="featureDesc1">
                 <template #svg-picture>
-                    <SvgoTest class="icon-rm-mg text-9xl" filled/>
+                    <SvgoTest class="icon-rm-mg text-9xl md:text-10xl lg:text-12xl" filled/>
                 </template>
             </GrokFeat>
-            <GrokFeat :featureHead="featureHead2" :featureDesc="featureDesc2">
+            <GrokFeat :featureHead="featureHead2" :featureDesc="featureDesc2" class="md:flex-row-reverse">
                 <template #svg-picture>
-                    <SvgoExams class="icon-rm-mg text-9xl" filled/>
+                    <SvgoExams class="icon-rm-mg text-9xl md:text-10xl lg:text-12xl" filled/>
                 </template>
             </GrokFeat>
             <GrokFeat :featureHead="featureHead3" :featureDesc="featureDesc3">
                 <template #svg-picture>
-                    <SvgoSorting class="icon-rm-mg text-9xl" filled/>
+                    <SvgoSorting class="icon-rm-mg text-9xl md:text-10xl lg:text-12xl" filled/>
                 </template>
             </GrokFeat>
         </div>
