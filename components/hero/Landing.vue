@@ -34,7 +34,7 @@
                     <p class="font-body text-xs md:text-base">Chemistry</p>
                 </div>
             </div>
-            <p class="font-body text-2xs md:text-sm">and so much more...</p>
+            <p class="font-body text-2xs md:text-sm">and more...</p>
         </div>
 
     </div>

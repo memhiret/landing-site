@@ -21,7 +21,7 @@ export default {
     data() {
         return {
             buttonClass: 'w-full py-2 px-3 sm:py-4 sm:px-5 lg:py-4 lg:px-4 sm:text-md md:text-base lg:text-lg main-button',
-            buttonText: 'Get Started',
+            buttonText: 'Download',
             buttonLink: 'https://www.google.com'
         };
     }

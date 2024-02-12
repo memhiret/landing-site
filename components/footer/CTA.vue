@@ -1,6 +1,6 @@
 <template>
     <div
-        class="hidden absolute left-1/2 right-1/2 -translate-x-1/2 -translate-y-1/2 px-4 py-4 w-3/4 flex flex-col items-center gap-4 text-grokWhite-500 text-center bg-grokBlack-300 rounded-md">
+        class="hidden absolute left-1/2 right-1/2 -translate-x-1/2 -translate-y-1/2 px-4 py-4 w-3/4 md:flex flex-col items-center gap-4 text-grokWhite-500 text-center bg-grokBlack-300 rounded-md">
         <p class="">Ditch the stress,<br>Study smarter, not harder.</p>
         <p class="text-3xs">Forget one-size-fits-all prep. GrokET maps your unique learning journey with interactive tools
             and science-backed
