@@ -41,6 +41,10 @@
         @apply flex flex-col items-center
     }
 
+    .list-visible{
+        @apply flex
+    }
+
     .desc-text {
         @apply font-body font-light text-center text-grokBlack-500
     }

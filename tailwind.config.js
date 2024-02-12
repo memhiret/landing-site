@@ -22,6 +22,9 @@ export default {
       '2xl': '1536px',
     },
     extend: {
+      spacing: {
+        '22': '5.5rem'
+      },
       fontSize: {
         '2xs': '0.6rem',
         '3xs': '0.5rem',
