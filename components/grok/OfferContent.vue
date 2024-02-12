@@ -34,7 +34,7 @@ export default {
     },
     data() {
         return {
-            buttonClass: 'w-32 px-2 lg:px-4 py-3 lg:py-4 border-opacity-50 lg:border-opacity-75 alt-button text-xs lg:text-base text-grokBlue-500 hover:button-hover active:button-hover',
+            buttonClass: 'w-32 md:w-44 py-2 px-1 sm:py-4 sm:px-3 text-xs sm:text-sm md:text-base lg:text-lg border-opacity-50 lg:border-opacity-75 alt-button text-grokBlue-500 hover:button-hover active:button-hover',
             buttonText: 'Get Started',
             buttonLink: 'https://www.google.com'
         };

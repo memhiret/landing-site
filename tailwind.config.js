@@ -27,10 +27,12 @@ export default {
         '3xs': '0.5rem',
         '10xl': '12rem',
         '12xl': '16rem',
+        '14xl': '20rem',
       },
       colors: {
         'grokBlue': {
           500: '#2D68FE',
+          700: '#1b3e98'
         },
         'grokWhite': {
           500: '#F8F9F5',

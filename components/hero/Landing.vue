@@ -1,7 +1,7 @@
 <template>
     <div class="w-full responsive-px md:py-6 flex flex-col gap-10">
         <div class="flex flex-col gap-4 items-center">
-            <div class="my-4 px-6 flex flex-col gap-2 items-center justify-center text-center">
+            <div class="my-4 px-6 flex flex-col gap-2 lg:gap-4 items-center justify-center text-center">
                 <p class="font-display font-medium responsive-heading">No More Text Anxiety,</p>
                 <p class="font-display font-thin responsive-subheading">Just Pure Text-Taking Mastery</p>
                 <p class="my-1 desc-text responsive-description">Personalized study paths and
@@ -10,13 +10,13 @@
                     guides,<br>helping you ace
                     your next test.</p>
             </div>
-            <div class="flex gap-12 lg:gap-24 font-body text-sm">
+            <div class="flex gap-12 lg:gap-24 xl:gap-36 font-body text-sm">
                 <MainButton :class="buttonClass2" :buttonText="buttonText2" :buttonLink="buttonLink2" />
                 <MainButton :class="buttonClass1" :buttonText="buttonText1" :buttonLink="buttonLink1" />
             </div>
         </div>
         <div class="flex flex-col gap-2 md:gap-4 items-center">
-            <div class="flex justify-between w-full md:w-8/12">
+            <div class="flex justify-between w-full md:w-8/12 xl:w-1/2">
                 <div class="flex gap-2 lg:gap-4 items-center">
                     <img class="h-4 w-auto md:h-6 lg:h-8" src="~/assets/imgs/math-book.png">
                     <p class="font-body responsive-captions">Math</p>
@@ -49,10 +49,10 @@ export default {
     },
     data() {
         return {
-            buttonClass1: 'w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 sm:text-sm md:text-base lg:text-lg main-button',
+            buttonClass1: 'w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 sm:text-sm md:text-base lg:text-lg main-button hover:main-hover',
             buttonText1: 'Get Started',
             buttonLink1: 'https://www.google.com',
-            buttonClass2: 'w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 sm:text-sm md:text-base lg:text-lg alt-button',
+            buttonClass2: 'w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 sm:text-sm md:text-base lg:text-lg alt-button hover:button-hover',
             buttonText2: 'Explore',
             buttonLink2: 'https://www.google.com',
         };

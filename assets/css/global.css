@@ -46,7 +46,7 @@
     }
 
     .responsive-px {
-        @apply px-4 mobm:px-6 lg:px-10
+        @apply px-4 mobm:px-6 lg:px-10 xl:px-16
     }
 
     .responsive-link-text {

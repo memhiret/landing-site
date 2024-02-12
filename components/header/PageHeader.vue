@@ -1,5 +1,5 @@
 <template>
-    <nav class="responsive-px py-4 md:px-8 md:py-6 flex items-center justify-between">
+    <nav class="responsive-px py-4 md:py-6 flex items-center justify-between">
         <!-- Header Logo -->
         <div class="gap-2 md:gap-3 flex items-center">
             <SvgoLogo class="icon-rm-mg text-6xl md:text-7xl lg:text-8xl" />
@@ -10,7 +10,7 @@
         </div>
         <!-- Nav Links -->
         <div>
-            <ul class="flex justify-between gap-8 lg:gap-24 font-body responsive-link-text lg:text-xl">
+            <ul class="flex justify-between gap-8 lg:gap-24 xl:gap-36 font-body responsive-link-text lg:text-xl">
                 <a class="cursor-pointer">
                     <li class="text-button-links">
                         Exam Prep</li>
@@ -46,7 +46,7 @@ export default {
     },
     data() {
         return {
-            buttonClass: 'py-1 px-2 sm:py-2 sm:px-4 lg:py-3 lg:px-4 sm:text-sm md:text-base lg:text-lg main-button',
+            buttonClass: 'py-1 px-2 sm:py-2 sm:px-4 lg:py-3 lg:px-4 sm:text-sm md:text-base lg:text-lg main-button hover:main-hover',
             buttonText: 'Get Started',
             buttonLink: 'https://www.google.com'
         };

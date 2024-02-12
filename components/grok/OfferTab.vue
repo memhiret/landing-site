@@ -6,7 +6,7 @@
                 @click="activeTab = index">
                 {{ tab }}</li>
         </ul>
-        <component v-bind:is="currentTab" :imgSrc="imgSrc" :offerHeading="offerHeading" :offerDesc="offerDesc" />
+        <component v-bind:is="currentTab" class="content-transition" :imgSrc="imgSrc" :offerHeading="offerHeading" :offerDesc="offerDesc" />
     </div>
 </template>
 
