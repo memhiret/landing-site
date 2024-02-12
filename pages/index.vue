@@ -7,6 +7,8 @@
       <GrokDesc />
     </div>
     <GrokOffer />
+    <div class="divider md:my-8"></div>
+    <FooterCallToAction />
     <Footer />
   </div>
 </template>

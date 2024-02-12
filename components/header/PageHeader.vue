@@ -1,5 +1,5 @@
 <template>
-    <nav class="responsive-px py-4 md:py-6 flex items-center justify-between">
+    <nav class="fixed top-0 w-full z-50 shadow-md responsive-px py-4 md:py-6 flex items-center justify-between bg-white">
         <!-- Header Logo -->
         <div class="gap-2 md:gap-3 flex items-center">
             <SvgoLogo class="icon-rm-mg text-6xl md:text-7xl lg:text-8xl" />
@@ -11,18 +11,16 @@
         <!-- Nav Links -->
         <div>
             <ul class="flex justify-between gap-8 lg:gap-24 xl:gap-36 font-body responsive-link-text lg:text-xl">
-                <a class="cursor-pointer">
-                    <li class="text-button-links">
-                        Exam Prep</li>
-                </a>
-                <a class="cursor-pointer">
-                    <li class="text-button-links">
-                        Study Guide</li>
-                </a>
-                <a class="cursor-pointer">
-                    <li class="hidden md:block text-button-links">
-                        Articles</li>
-                </a>
+                <li class="cursor-pointer hidden md:block text-button-links">
+                    <NuxtLink to="/help/working">Exam Prep</NuxtLink>
+                </li>
+                <li class="cursor-pointer hidden md:block text-button-links">
+                    <NuxtLink to="/help/working">Study Guide</NuxtLink>
+                </li>
+                <li class="cursor-pointer hidden md:block text-button-links">
+                    <NuxtLink to="/help/working">Articles</NuxtLink>
+                </li>
+
             </ul>
         </div>
         <!-- Mobile Hamburger Menu -->

@@ -1,5 +1,5 @@
 <template>
-    <div id="hamburger" class="hidden z-20 absolute top-22 right-2 px-4 py-4 bg-grokWhite-500 rounded-lg text-xs shadow-md">
+    <div id="hamburger" class="hidden z-40 absolute top-24 right-2 px-4 py-4 bg-grokWhite-500 rounded-lg text-xs shadow-md">
         <ul class="flex flex-col gap-4 w-36 h-auto items-start font-body">
             <a>
                 <li class="active:text-grokBlue-500">Articles</li>

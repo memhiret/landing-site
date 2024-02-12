@@ -1,7 +1,5 @@
 <template>
-    <div class="divider md:my-8"></div>
     <div class="flex flex-col items-center">
-        <FooterCTAMobile />
         <div class="w-full flex py-4 lg:py-8 responsive-px bg-grokBlack-500">
             <div class="basis-1/2 md:basis-1/3 lg:basis-1/3 mr-8 lg:mr-0">
                 <div class="gap-2 md:gap-3 flex items-center">
@@ -41,8 +39,10 @@
                     <div class="basis-1/2 flex flex-col gap-2 md:gap-4">
                         <p class="text-grokWhite-500 text-xs lg:text-base">Download</p>
                         <div class="flex flex-col items-start gap-2 lg:gap-6">
-                            <SvgoAppStore class="icon-rm-mg h-5 md:h-7 lg:h-10 xl:h-12 w-auto cursor-pointer" filled :fontControlled="false" />
-                            <SvgoGooglePlay class="icon-rm-mg h-5 md:h-7 lg:h-10 xl:h-12 w-auto cursor-pointer" filled :fontControlled="false" />
+                            <SvgoAppStore class="icon-rm-mg h-5 md:h-7 lg:h-10 xl:h-12 w-auto cursor-pointer" filled
+                                :fontControlled="false" />
+                            <SvgoGooglePlay class="icon-rm-mg h-5 md:h-7 lg:h-10 xl:h-12 w-auto cursor-pointer" filled
+                                :fontControlled="false" />
                         </div>
                     </div>
                     <div class="basis-1/2 md:basis-1/3 lg:basis-2/5 flex flex-col gap-2 md:gap-4">
@@ -62,27 +62,26 @@
                             <li class="hover:text-button-hover">iLearn for Government Schools</li>
                         </ul>
                     </div>
-                    
+
                 </div>
                 <div class="flex md:flex-col gap-3 md:gap-6">
                     <div class="basis-1/2 md:basis-1/4 flex flex-col gap-2 md:gap-4">
                         <p class="text-grokWhite-500 text-xs lg:text-base">Help</p>
-                        <ul class="flex flex-col gap-1 md:gap-2 lg:gap-4 text-2xs lg:text-sm text-grokWhite-500 text-opacity-60">
+                        <ul
+                            class="flex flex-col gap-1 md:gap-2 lg:gap-4 text-2xs lg:text-sm text-grokWhite-500 text-opacity-60">
                             <li class="hover:text-button-hover">Live Chat</li>
                             <li class="hover:text-button-hover">Documentation</li>
                         </ul>
                     </div>
                     <div class="basis-1/2 md:basis-3/4 flex flex-col gap-2 text-3xs text-grokWhite-500 text-opacity-60">
                         <p class="text-grokWhite-500 text-xs lg:text-base">Legal</p>
-                        <ul class="flex flex-col gap-1 md:gap-2 lg:gap-4 text-2xs lg:text-sm text-grokWhite-500 text-opacity-60">
+                        <ul
+                            class="flex flex-col gap-1 md:gap-2 lg:gap-4 text-2xs lg:text-sm text-grokWhite-500 text-opacity-60">
                             <li class="hover:text-button-hover">Privacy Policy</li>
                             <li class="hover:text-button-hover">Terms & Conditions</li>
                         </ul>
                     </div>
 
-                </div>
-                <div class="md:hidden flex gap-1 text-3xs text-grokWhite-500 text-opacity-60">
-                    <p class="basis-1/2">iLearn ET P.L.C.</p>
                 </div>
             </div>
         </div>

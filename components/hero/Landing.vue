@@ -1,9 +1,9 @@
 <template>
-    <div class="w-full responsive-px md:py-6 flex flex-col gap-10">
+    <div class="w-full mt-20 lg:mt-36 responsive-px py-4 md:py-6 lg:py-16 flex flex-col gap-10">
         <div class="flex flex-col gap-4 items-center">
             <div class="my-4 px-6 flex flex-col gap-2 lg:gap-4 items-center justify-center text-center">
-                <p class="font-display font-medium responsive-heading">No More Text Anxiety,</p>
-                <p class="font-display font-thin responsive-subheading">Just Pure Text-Taking Mastery</p>
+                <p class="font-display font-medium responsive-heading lg:tracking-wider">No More Text Anxiety,</p>
+                <p class="font-display font-thin responsive-subheading lg:tracking-wide">Just Pure Text-Taking Mastery</p>
                 <p class="my-1 desc-text responsive-description">Personalized study paths and
                     test
                     preparation

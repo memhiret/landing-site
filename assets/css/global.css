@@ -12,6 +12,10 @@
     src: url('../fonts/DMSans.ttf') format('truetype');
 }
 
+body {
+    min-height: 100vh;
+}
+
 .divider {
     background: -webkit-radial-gradient(center center, 50% 50%, rgba(0, 0, 0, .1), transparent);
     background-repeat: no-repeat;
@@ -27,12 +31,12 @@
 }
 
 .overlay {
-    position: absolute;
-    top: 5.2rem;
+    position: fixed;
+    top: 5.8rem;
     left: 0;
-    height: 100%;
+    height: 100vh;
     width: 100%;
-    z-index: 10;
+    z-index: 30;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -41,7 +45,7 @@
         @apply flex flex-col items-center
     }
 
-    .list-visible{
+    .list-visible {
         @apply flex
     }
 
@@ -58,7 +62,7 @@
     }
 
     .responsive-heading {
-        @apply text-xl mobm:text-2xl md:text-4xl lg:text-5xl
+        @apply text-xl mobm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl
     }
 
     .responsive-subheading {
@@ -68,8 +72,8 @@
     .responsive-description {
         @apply text-3xs mobm:text-2xs md:text-xs lg:text-base
     }
-    
-    .responsive-captions{
+
+    .responsive-captions {
         @apply text-xs md:text-base lg:text-xl
     }
 }
