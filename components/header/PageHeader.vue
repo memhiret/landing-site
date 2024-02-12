@@ -11,10 +11,10 @@
         <!-- Nav Links -->
         <div>
             <ul class="flex justify-between gap-8 lg:gap-24 xl:gap-36 font-body responsive-link-text lg:text-xl">
-                <li class="cursor-pointer hidden md:block text-button-links">
+                <li class="cursor-pointer text-button-links">
                     <NuxtLink to="/help/working">Exam Prep</NuxtLink>
                 </li>
-                <li class="cursor-pointer hidden md:block text-button-links">
+                <li class="cursor-pointer text-button-links">
                     <NuxtLink to="/help/working">Study Guide</NuxtLink>
                 </li>
                 <li class="cursor-pointer hidden md:block text-button-links">
