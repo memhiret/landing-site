@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full mt-20 lg:mt-36 responsive-px py-4 md:py-6 lg:py-16 flex flex-col gap-10">
+    <div class="w-full mt-20 md:mt-32 lg:mt-36 responsive-px py-4 md:py-6 lg:py-16 flex flex-col gap-10">
         <div class="flex flex-col gap-4 items-center">
             <div class="my-4 px-6 flex flex-col gap-2 lg:gap-4 items-center justify-center text-center">
                 <p class="font-display font-medium responsive-heading lg:tracking-wider">No More Text Anxiety,</p>
@@ -19,19 +19,19 @@
             <div class="flex justify-between w-full md:w-8/12 xl:w-1/2">
                 <div class="flex gap-2 lg:gap-4 items-center">
                     <img class="h-4 w-auto md:h-6 lg:h-8" src="~/assets/imgs/math-book.png">
-                    <p class="font-body responsive-captions">Math</p>
+                    <p class="font-body responsive-captions hover:hover-enlarge hover:transition-enlarge">Math</p>
                 </div>
                 <div class="flex gap-2 lg:gap-4 items-center">
                     <img class="h-4 w-auto md:h-6 lg:h-8" src="~/assets/imgs/atomic.png">
-                    <p class="font-body responsive-captions">Physics</p>
+                    <p class="font-body responsive-captions hover:hover-enlarge hover:transition-enlarge">Physics</p>
                 </div>
                 <div class="flex gap-2 lg:gap-4 items-center">
                     <img class="h-4 w-auto md:h-6 lg:h-8" src="~/assets/imgs/biology.png">
-                    <p class="font-body responsive-captions">Biology</p>
+                    <p class="font-body responsive-captions hover:hover-enlarge hover:transition-enlarge">Biology</p>
                 </div>
                 <div class="flex gap-2 lg:gap-4 items-center">
                     <img class="h-4 w-auto md:h-6 lg:h-8" src="~/assets/imgs/chemistry.png">
-                    <p class="font-body responsive-captions">Chemistry</p>
+                    <p class="font-body responsive-captions hover:hover-enlarge hover:transition-enlarge">Chemistry</p>
                 </div>
             </div>
             <p class="font-body text-2xs md:text-sm lg:text-base">and more...</p>

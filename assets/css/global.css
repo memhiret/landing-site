@@ -76,4 +76,12 @@ body {
     .responsive-captions {
         @apply text-xs md:text-base lg:text-xl
     }
+
+    .hover-enlarge {
+        @apply text-sm md:text-lg lg:text-2xl
+    }
+
+    .transition-enlarge {
+        transition: font-size 300ms ease;
+    }
 }
