@@ -14,4 +14,7 @@
     .content-transition {
         @apply transition ease-in delay-200 duration-200
     }
+    .pills{
+        @apply px-2 py-1 rounded-md bg-grokBlack-300 bg-opacity-90 text-grokWhite-500
+    }
 }

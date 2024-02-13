@@ -36,13 +36,13 @@ export default {
         currentTab() {
             switch (this.activeTab) {
                 case 0:
-                    this.imgSrc = Taking,
-                        this.offerHeading = 'Test Preparation Material';
+                    this.imgSrc = Taking;
+                    this.offerHeading = 'Test Preparation Material';
                     this.offerDesc = 'Bite-sized content, gamified experiences, and powerful recall techniques ensure you master challenging concepts and conquer those standardized exams with confidence.'
                     return OfferContent;
                 case 1:
-                    this.imgSrc = Study,
-                        this.offerHeading = 'Guided Study Paths';
+                    this.imgSrc = Study;
+                    this.offerHeading = 'Guided Study Paths';
                     this.offerDesc = "Stuck on a subject? We get you test - ready with personalized study paths tailored to YOU. Forget generic guides; dive into bite - sized lessons, quizzes, and reminders that fit your learning style.";
 
                     return OfferContent;
