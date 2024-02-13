@@ -1,18 +1,20 @@
 <template>
     <nav class="fixed top-0 w-full z-50 shadow-md responsive-px py-4 md:py-6 flex items-center justify-between bg-white">
         <!-- Header Logo -->
-        <div class="gap-2 md:gap-3 flex items-center">
-            <SvgoLogo class="icon-rm-mg text-6xl md:text-7xl lg:text-8xl" />
-            <div class="hidden sm:block">
-                <div class="text-black font-display lg:text-4xl">iLearn ET</div>
-                <p class="text-grokBlack-500 font-body text-xs lg:text-xl">Moving the Needle</p>
+        <NuxtLink to="/">
+            <div class="gap-2 md:gap-3 flex items-center">
+                <SvgoLogo class="icon-rm-mg text-6xl md:text-7xl lg:text-8xl" />
+                <div class="hidden sm:block">
+                    <div class="text-black font-display lg:text-4xl">iLearn ET</div>
+                    <p class="text-grokBlack-500 font-body text-xs lg:text-xl">Moving the Needle</p>
+                </div>
             </div>
-        </div>
+        </NuxtLink>
         <!-- Nav Links -->
         <div>
             <ul class="flex justify-between gap-8 lg:gap-24 xl:gap-36 font-body responsive-link-text lg:text-xl">
                 <li class="cursor-pointer text-button-links">
-                    <NuxtLink to="/help/working">Exam Prep</NuxtLink>
+                    <NuxtLink to="/grok/examprep">Exam Prep</NuxtLink>
                 </li>
                 <li class="cursor-pointer text-button-links">
                     <NuxtLink to="/help/working">Study Guide</NuxtLink>
