@@ -6,7 +6,7 @@
         <div class="basis-1/2 flex flex-col gap-4 md:gap-8 items-start">
             <p class="font-medium md:text-2xl">{{ offerHeading }}</p>
             <p class="font-body text-grokBlack-500 text-opacity-50 responsive-description">{{ offerDesc }}</p>
-            <MainButton :class="buttonClass" :buttonText="buttonText" :buttonLink="buttonLink" />
+            <MainButton :buttonClass="buttonClass" :buttonText="buttonText" :buttonLink="buttonLink" />
         </div>
     </div>
 </template>
@@ -34,9 +34,9 @@ export default {
     },
     data() {
         return {
-            buttonClass: 'w-32 md:w-44 py-2 px-1 sm:py-4 sm:px-3 text-xs sm:text-sm md:text-base lg:text-lg border-opacity-50 lg:border-opacity-75 alt-button text-grokBlue-500 hover:button-hover active:button-hover',
+            buttonClass: 'w-32 md:w-44 py-2 px-1 sm:py-4 sm:px-3 font-body text-xs sm:text-sm md:text-base lg:text-lg border-opacity-50 lg:border-opacity-75 alt-button text-grokBlue-500 hover:button-hover active:button-hover',
             buttonText: 'Get Started',
-            buttonLink: 'https://www.google.com'
+            buttonLink: '#getStarted'
         };
     }
 };

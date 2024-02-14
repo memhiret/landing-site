@@ -1,14 +1,3 @@
 <template>
-    <div class="h-screen flex flex-col justify-between">
-        <div>
-            <HeaderPageHeader />
-            <CommonOverlay />
-        </div>
-        <div>
-            <CommonConstruction />
-        </div>
-        <div class="mt-auto">
-            <Footer />
-        </div>
-    </div>
+   <CommonConstruction />
 </template>

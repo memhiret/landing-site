@@ -1,8 +1,11 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  logger: {
+    level: 'debug',
+  },
   ssr: true,
   css: ['~/assets/css/global.css', '~/assets/css/button.css', '~/assets/css/mytabs.css'],
-  modules: ['nuxt-svgo'],
+  modules: ['nuxt-svgo', "@nuxt/content"],
   svgo: {
     autoImportPath: './assets/svgs/'
   },
@@ -10,6 +13,11 @@ export default defineNuxtConfig({
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
+    },
+  },
+  router: {
+    options: {
+      scrollBehaviorType: "smooth",
     },
   },
 })

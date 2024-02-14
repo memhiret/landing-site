@@ -1,5 +1,5 @@
 <template>
-    <div class="tham tham-e-squeeze tham-w-6" @click="toggleMenu">
+    <div class="tham tham-e-squeeze tham-w-6" @click="toggleHam">
         <div class="tham-box">
             <div class="tham-inner bg-black">
             </div>
@@ -8,15 +8,9 @@
 </template>
 
 <script>
+import toggleHam from '~/mixins/toggleHam'
 
 export default {
-    methods: {
-        toggleMenu() {
-            document.querySelector('body').classList.toggle('overflow-hidden')
-            document.querySelector('.tham').classList.toggle('tham-active')
-            document.querySelector('#hamburger').classList.toggle('hidden')
-            document.querySelector('#overlay').classList.toggle('overlay')
-        }
-    }
+    mixins: [toggleHam]
 }
 </script>

@@ -49,17 +49,26 @@
                         <p class="text-grokWhite-500 text-xs lg:text-base">About Us</p>
                         <ul
                             class="flex flex-col gap-1 md:gap-2 lg:gap-4 text-2xs lg:text-sm text-grokWhite-500 text-opacity-60">
-                            <li class="hover:text-button-hover">Our Story</li>
-                            <li class="hover:text-button-hover">Careers</li>
+                            <li class="hover:text-button-hover">
+                                <NuxtLink to="/about/story">Our Story</NuxtLink>
+                            </li>
+                            <li class="hover:text-button-hover">
+                                <NuxtLink to="/about/careers">Careers</NuxtLink>
+                            </li>
                         </ul>
                     </div>
                     <div class="hidden md:inline-flex md:basis-2/3 lg:basis-3/5 flex-col gap-2 md:gap-4">
                         <p class="text-grokWhite-500 text-xs lg:text-base">Explore</p>
                         <ul
                             class="flex flex-col gap-1 md:gap-2 lg:gap-4 text-2xs lg:text-sm text-grokWhite-500 text-opacity-60">
-                            <li class="hover:text-button-hover">How GrokET Works</li>
-                            <li class="hover:text-button-hover">iLearn for Private Schools</li>
-                            <li class="hover:text-button-hover">iLearn for Government Schools</li>
+                            <li class="hover:text-button-hover">
+                                <NuxtLink to="/explore/private">For Private Schools</NuxtLink>
+                            </li>
+                            <li class="hover:text-button-hover">
+                                <NuxtLink to="/explore/government">For Government Schools</NuxtLink>
+                            </li>
+
+
                         </ul>
                     </div>
 
@@ -69,16 +78,23 @@
                         <p class="text-grokWhite-500 text-xs lg:text-base">Help</p>
                         <ul
                             class="flex flex-col gap-1 md:gap-2 lg:gap-4 text-2xs lg:text-sm text-grokWhite-500 text-opacity-60">
-                            <li class="hover:text-button-hover">Live Chat</li>
-                            <li class="hover:text-button-hover">Documentation</li>
+
+                            <li class="hover:text-button-hover">
+                                <NuxtLink to="/help/documentation">Documentation</NuxtLink>
+                            </li>
                         </ul>
                     </div>
-                    <div class="basis-1/2 md:basis-3/4 flex flex-col gap-2 text-3xs text-grokWhite-500 text-opacity-60">
+                    <div
+                        class="basis-1/2 md:basis-3/4 flex flex-col gap-2 md:gap-4 text-3xs text-grokWhite-500 text-opacity-60">
                         <p class="text-grokWhite-500 text-xs lg:text-base">Legal</p>
                         <ul
                             class="flex flex-col gap-1 md:gap-2 lg:gap-4 text-2xs lg:text-sm text-grokWhite-500 text-opacity-60">
-                            <li class="hover:text-button-hover">Privacy Policy</li>
-                            <li class="hover:text-button-hover">Terms & Conditions</li>
+                            <li class="hover:text-button-hover">
+                                <NuxtLink to="">Privacy Policy</NuxtLink>
+                            </li>
+                            <li class="hover:text-button-hover">
+                                <NuxtLink to="">Terms & Conditions</NuxtLink>
+                            </li>
                         </ul>
                     </div>
 
