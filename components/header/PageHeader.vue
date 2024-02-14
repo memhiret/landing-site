@@ -1,5 +1,5 @@
 <template>
-    <nav class="fixed top-0 w-full z-50 shadow-md responsive-px py-4 md:py-6 flex items-center justify-between bg-white">
+    <nav id="navbar" class="fixed top-0 w-full z-50 shadow-md responsive-px py-4 md:py-6 flex items-center justify-between bg-white">
         <!-- Header Logo -->
         <NuxtLink to="/">
             <div class="gap-2 md:gap-3 flex items-center">
@@ -14,13 +14,13 @@
         <div>
             <ul class="flex justify-between gap-8 lg:gap-24 xl:gap-36 font-body responsive-link-text lg:text-xl">
                 <li class="cursor-pointer text-button-links">
-                    <NuxtLink to="/grok/examprep">Exam Prep</NuxtLink>
+                    <NuxtLink to="/grok/studyguide">Products</NuxtLink>
                 </li>
                 <li class="cursor-pointer text-button-links">
-                    <NuxtLink to="/help/working">Study Guide</NuxtLink>
+                    <NuxtLink to="/articles">Articles</NuxtLink>
                 </li>
                 <li class="cursor-pointer hidden md:block text-button-links">
-                    <NuxtLink to="/help/working">Articles</NuxtLink>
+                    <NuxtLink to="/pricing">Pricing</NuxtLink>
                 </li>
 
             </ul>
@@ -32,7 +32,7 @@
         <HeaderHamburgerMenu />
         <!-- Desktop Actions -->
         <div class="hidden sm:flex gap-4 lg:gap-8 items-center font-body">
-            <MainButton :class="buttonClass" :buttonText="buttonText" :buttonLink="buttonLink" />
+            <MainButton :buttonClass="buttonClass" :buttonText="buttonText" :buttonLink="buttonLink" />
         </div>
     </nav>
 </template>
@@ -48,7 +48,7 @@ export default {
         return {
             buttonClass: 'py-1 px-2 sm:py-2 sm:px-4 lg:py-3 lg:px-4 sm:text-sm md:text-base lg:text-lg main-button hover:main-hover',
             buttonText: 'Get Started',
-            buttonLink: 'https://www.google.com'
+            buttonLink: '#getStarted'
         };
     }
 };

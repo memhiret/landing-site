@@ -1,3 +1,3 @@
 <template>
     <CommonConstruction />
- </template>
+</template>
