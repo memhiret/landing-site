@@ -1,9 +1,7 @@
 <template>
-    <button
-        :class="buttonClass"
-        @click="redirectToLink">
+    <NuxtLink :class="buttonClass" :to="buttonLink" smooth>
         {{ buttonText }}
-    </button>
+    </NuxtLink>
 </template>
 
 <script>
@@ -22,11 +20,6 @@ export default {
             required: true
         }
     },
-    methods: {
-        redirectToLink() {
-            window.location.href = this.buttonLink;
-        }
-    }
 
 }
 </script>

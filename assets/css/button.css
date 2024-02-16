@@ -4,11 +4,11 @@
 
 @layer components {
     .main-button {
-        @apply bg-grokBlue-500 text-grokWhite-500 rounded-lg shadow-2xl
+        @apply bg-grokBlue-500 text-grokWhite-500 rounded-lg shadow-2xl text-center
     }
 
     .alt-button {
-        @apply rounded-lg shadow-2xl border border-grokBlack-500
+        @apply rounded-lg shadow-2xl border border-grokBlack-500 text-center
     }
 
     .button-hover {

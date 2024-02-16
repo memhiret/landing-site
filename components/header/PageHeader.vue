@@ -1,5 +1,6 @@
 <template>
-    <nav id="navbar" class="fixed top-0 w-full z-50 shadow-md responsive-px py-4 md:py-6 flex items-center justify-between bg-white">
+    <nav id="navbar"
+        class="fixed top-0 w-full z-50 shadow-md responsive-px py-4 md:py-6 flex items-center justify-between bg-white">
         <!-- Header Logo -->
         <NuxtLink to="/">
             <div class="gap-2 md:gap-3 flex items-center">
@@ -22,7 +23,6 @@
                 <li class="cursor-pointer hidden md:block text-button-links">
                     <NuxtLink to="/pricing">Pricing</NuxtLink>
                 </li>
-
             </ul>
         </div>
         <!-- Mobile Hamburger Menu -->
@@ -42,7 +42,7 @@ import MainButton from "~/components/buttons/MainButton.vue";
 
 export default {
     components: {
-        MainButton
+        MainButton,
     },
     data() {
         return {
