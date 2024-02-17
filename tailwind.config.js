@@ -26,8 +26,8 @@ export default {
         '22': '5.5rem'
       },
       fontSize: {
-        '2xs': '0.6rem',
-        '3xs': '0.5rem',
+        '2xs': '0.65rem',
+        '3xs': '0.55rem',
         '10xl': '12rem',
         '12xl': '16rem',
         '14xl': '20rem',

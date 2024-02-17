@@ -1,5 +1,6 @@
 <template>
-    <div class="w-full col-flex gap-6 lg:gap-12 bg-grokBlack-500 py-6 lg:py-12 responsive-px bg-opacity-5">
+    <div id="grok-product"
+        class="w-full col-flex gap-6 lg:gap-12 bg-grokBlack-500 py-6 lg:py-12 responsive-px bg-opacity-5 scroll-mt-24 lg:scroll-mt-32">
         <div class="md:w-3/4 lg:w-1/2 flex flex-col gap-2 md:gap-4 lg:gap-8 items-center">
             <p class="font-display font-medium text-grokBlue-700 responsive-heading">Meet GrokET</p>
             <p class="desc-text responsive-description">Leveraging data-driven insights and proven learning science,

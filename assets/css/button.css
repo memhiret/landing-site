@@ -12,7 +12,7 @@
     }
 
     .button-hover {
-        @apply bg-grokBlue-500 text-grokWhite-500 transition ease-in-out delay-100 duration-200
+        @apply bg-grokBlue-500 text-grokWhite-500 transition ease-in-out duration-200
     }
 
     .text-button-links {

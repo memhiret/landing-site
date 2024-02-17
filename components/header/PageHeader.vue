@@ -3,19 +3,16 @@
         class="fixed top-0 w-full z-50 shadow-md responsive-px py-4 md:py-6 flex items-center justify-between bg-white">
         <!-- Header Logo -->
         <NuxtLink to="/">
-            <div class="gap-2 md:gap-3 flex items-center">
-                <SvgoLogo class="icon-rm-mg text-6xl md:text-7xl lg:text-8xl" />
-                <div class="hidden sm:block">
-                    <div class="text-black font-display lg:text-4xl">iLearn ET</div>
-                    <p class="text-grokBlack-500 font-body text-xs lg:text-xl">Moving the Needle</p>
-                </div>
+            <div class="md:gap-1 flex items-center">
+                <SvgoGrokLogo class="icon-rm-mg text-grokBlue-500 text-6xl md:text-5xl lg:text-7xl" />
+                <div class="hidden sm:block text-black font-display font-medium md:text-2xl lg:text-4xl">GrokET</div>
             </div>
         </NuxtLink>
         <!-- Nav Links -->
         <div>
-            <ul class="flex justify-between gap-8 lg:gap-24 xl:gap-36 font-body responsive-link-text lg:text-xl">
+            <ul class="flex justify-between gap-16 lg:gap-24 xl:gap-36 font-body responsive-link-text lg:text-xl">
                 <li class="cursor-pointer text-button-links">
-                    <NuxtLink to="/grok/studyguide">Products</NuxtLink>
+                    <NuxtLink to="#product">Products</NuxtLink>
                 </li>
                 <li class="cursor-pointer text-button-links">
                     <NuxtLink to="/articles">Articles</NuxtLink>
@@ -48,7 +45,7 @@ export default {
         return {
             buttonClass: 'py-1 px-2 sm:py-2 sm:px-4 lg:py-3 lg:px-4 sm:text-sm md:text-base lg:text-lg main-button hover:main-hover',
             buttonText: 'Get Started',
-            buttonLink: '#getStarted'
+            buttonLink: '#get-started'
         };
     }
 };
