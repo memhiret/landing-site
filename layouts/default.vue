@@ -1,5 +1,5 @@
 <template>
-    <div class="h-scrceen flex flex-col justify-between">
+    <div class="h-screen flex flex-col justify-between">
         <div>
             <HeaderPageHeader />
             <CommonOverlay />

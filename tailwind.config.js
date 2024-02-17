@@ -31,7 +31,8 @@ export default {
         '10xl': '12rem',
         '12xl': '16rem',
         '14xl': '20rem',
-        '16xl': '24rem'
+        '16xl': '24rem',
+        '20xl': '32rem'
       },
       colors: {
         'grokBlue': {
