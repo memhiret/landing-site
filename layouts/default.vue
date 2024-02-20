@@ -4,7 +4,7 @@
             <HeaderPageHeader />
             <CommonOverlay />
         </div>
-        <div>
+        <div >
             <slot />
         </div>
         <div class="mt-auto">

@@ -30,6 +30,7 @@ export default {
         '3xs': '0.55rem',
         '10xl': '12rem',
         '12xl': '16rem',
+        '13xl': '18rem',
         '14xl': '20rem',
         '16xl': '24rem',
         '20xl': '32rem'
