@@ -12,7 +12,7 @@
         <div>
             <ul class="flex justify-between gap-16 lg:gap-24 xl:gap-36 font-body responsive-link-text lg:text-xl">
                 <li class="cursor-pointer text-button-links">
-                    <NuxtLink to="#product">Products</NuxtLink>
+                    <NuxtLink to="/#product">Products</NuxtLink>
                 </li>
                 <li class="cursor-pointer text-button-links">
                     <NuxtLink to="/articles">Articles</NuxtLink>

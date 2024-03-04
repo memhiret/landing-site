@@ -54,7 +54,7 @@ export default {
             buttonLink1: '#get-started',
             buttonClass2: 'w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg alt-button hover:button-hover',
             buttonText2: 'Explore',
-            buttonLink2: '#grok-product',
+            buttonLink2: '/#grok-product',
         };
     },
 };
