@@ -12,7 +12,7 @@
         <div>
             <ul class="flex justify-between gap-16 lg:gap-24 xl:gap-36 font-body responsive-link-text lg:text-xl">
                 <li class="cursor-pointer text-button-links">
-                    <NuxtLink to="#product">Products</NuxtLink>
+                    <NuxtLink to="/#product">Products</NuxtLink>
                 </li>
                 <li class="cursor-pointer text-button-links">
                     <NuxtLink to="/articles">Articles</NuxtLink>
@@ -43,7 +43,7 @@ export default {
     },
     data() {
         return {
-            buttonClass: 'py-1 px-2 sm:py-2 sm:px-4 lg:py-3 lg:px-4 sm:text-sm md:text-base lg:text-lg main-button hover:main-hover',
+            buttonClass: 'py-1 px-2 sm:py-2 sm:px-4 lg:py-3 lg:px-4 font-body sm:text-sm md:text-base lg:text-lg main-button hover:main-hover',
             buttonText: 'Get Started',
             buttonLink: '#get-started'
         };

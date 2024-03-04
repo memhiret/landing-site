@@ -49,12 +49,12 @@ export default {
     },
     data() {
         return {
-            buttonClass1: 'w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 sm:text-sm md:text-base lg:text-lg main-button hover:main-hover',
+            buttonClass1: 'w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg main-button hover:main-hover',
             buttonText1: 'Get Started',
             buttonLink1: '#get-started',
-            buttonClass2: 'w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 sm:text-sm md:text-base lg:text-lg alt-button hover:button-hover',
+            buttonClass2: 'w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg alt-button hover:button-hover',
             buttonText2: 'Explore',
-            buttonLink2: '#grok-product',
+            buttonLink2: '/#grok-product',
         };
     },
 };

@@ -75,10 +75,10 @@ export default {
     },
     data() {
         return {
-            buttonClass1: 'w-28 md:w-44 py-3 px-2 sm:py-4 sm:px-3 sm:text-sm md:text-base lg:text-lg bg-grokBlack-500 main-button hover:main-hover',
+            buttonClass1: 'w-28 md:w-44 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg bg-grokBlack-500 main-button hover:main-hover',
             buttonText1: 'Careers',
             buttonLink1: '/about/careers',
-            buttonClass2: 'w-28 md:w-44 py-3 px-2 sm:py-4 sm:px-3 sm:text-sm md:text-base lg:text-lg alt-button hover:button-hover',
+            buttonClass2: 'w-28 md:w-44 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg alt-button hover:button-hover',
             buttonText2: 'YoungMinds',
             buttonLink2: '/about/youngmind',
         };
