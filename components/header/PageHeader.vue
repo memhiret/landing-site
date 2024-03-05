@@ -1,16 +1,26 @@
 <template>
-    <nav id="navbar"
-        class="fixed top-0 w-full z-50 shadow-md responsive-px py-4 md:py-6 flex items-center justify-between bg-white">
+    <nav
+        id="navbar"
+        class="fixed top-0 w-full z-50 shadow-md responsive-px py-4 md:py-6 flex items-center justify-between bg-white"
+    >
         <!-- Header Logo -->
         <NuxtLink to="/">
             <div class="md:gap-1 flex items-center">
-                <SvgoGrokLogo class="icon-rm-mg text-grokBlue-500 text-6xl md:text-5xl lg:text-7xl" />
-                <div class="hidden sm:block text-black font-display font-medium md:text-2xl lg:text-4xl">GrokET</div>
+                <SvgoGrokLogo
+                    class="icon-rm-mg text-grokBlue-500 text-6xl md:text-5xl lg:text-7xl"
+                />
+                <div
+                    class="hidden sm:block text-black font-display font-medium md:text-2xl lg:text-4xl"
+                >
+                    GrokET
+                </div>
             </div>
         </NuxtLink>
         <!-- Nav Links -->
         <div>
-            <ul class="flex justify-between gap-16 lg:gap-24 xl:gap-36 font-body responsive-link-text lg:text-xl">
+            <ul
+                class="flex justify-between gap-16 lg:gap-24 xl:gap-36 font-body responsive-link-text lg:text-xl"
+            >
                 <li class="cursor-pointer text-button-links">
                     <NuxtLink to="/#product">Products</NuxtLink>
                 </li>
@@ -29,7 +39,11 @@
         <HeaderHamburgerMenu />
         <!-- Desktop Actions -->
         <div class="hidden sm:flex gap-4 lg:gap-8 items-center font-body">
-            <MainButton :buttonClass="buttonClass" :buttonText="buttonText" :buttonLink="buttonLink" />
+            <MainButton
+                :buttonClass="buttonClass"
+                :buttonText="buttonText"
+                :buttonLink="buttonLink"
+            />
         </div>
     </nav>
 </template>
@@ -43,10 +57,11 @@ export default {
     },
     data() {
         return {
-            buttonClass: 'py-1 px-2 sm:py-2 sm:px-4 lg:py-3 lg:px-4 font-body sm:text-sm md:text-base lg:text-lg main-button hover:main-hover',
-            buttonText: 'Get Started',
-            buttonLink: '#get-started'
+            buttonClass:
+                "py-1 px-2 sm:py-2 sm:px-4 lg:py-3 lg:px-4 font-body sm:text-sm md:text-base lg:text-lg main-button hover:main-hover",
+            buttonText: "Get Started",
+            buttonLink: "/grok/waiting-private",
         };
-    }
+    },
 };
 </script>

@@ -100,7 +100,7 @@ export default {
             buttonClass1:
                 "w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg main-button hover:main-hover",
             buttonText1: "Get Started",
-            buttonLink1: "#get-started",
+            buttonLink1: "/grok/waiting-private",
             buttonClass2:
                 "w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg alt-button hover:button-hover",
             buttonText2: "Explore",
