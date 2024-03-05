@@ -124,7 +124,7 @@
             </p>
             <p class="desc-text text-base xl:text-lg">
                 Ooops. We don't have any openings at the moment. If you'd like
-                to get notified of openings, fill out the form below.
+                to get notified of future openings, fill out the form below.
             </p>
             <div class="flex flex-col items-start gap-4">
                 <div class="w-full flex flex-col items-start gap-6 xl:gap-10">
@@ -252,7 +252,7 @@ export default {
             buttonClass1:
                 "w-36 md:w-44 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg alt-button hover:button-hover",
             buttonText1: "Open Positions",
-            buttonLink1: "/about/careers/#open-positions",
+            buttonLink1: "#open-positions",
             buttonClass2:
                 "mt-4 w-36 md:w-44 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg main-button hover:main-hover",
             buttonText2: "Notify me",

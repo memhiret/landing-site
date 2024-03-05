@@ -4,15 +4,15 @@
     >
         <div class="flex flex-col gap-4 items-center">
             <div
-                class="my-4 px-6 flex flex-col gap-2 lg:gap-4 items-center justify-center text-center"
+                class="my-4 px-4 flex flex-col gap-2 lg:gap-4 items-center justify-center text-center"
             >
                 <p
-                    class="font-display font-medium responsive-heading lg:tracking-wider"
+                    class="font-body font-medium responsive-heading lg:tracking-wider"
                 >
                     No More Test Anxiety,
                 </p>
                 <p
-                    class="font-display font-thin responsive-subheading lg:tracking-wide"
+                    class="font-body font-medium responsive-subheading lg:tracking-wide"
                 >
                     Just Pure Test-Taking Mastery
                 </p>

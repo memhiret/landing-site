@@ -7,7 +7,7 @@
             class="md:w-3/4 lg:w-1/2 flex flex-col gap-2 md:gap-4 lg:gap-8 items-center"
         >
             <p
-                class="font-display font-medium text-grokBlue-700 responsive-heading"
+                class="font-body font-medium text-grokBlue-700 responsive-heading"
             >
                 Meet GrokET
             </p>

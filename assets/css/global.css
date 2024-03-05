@@ -4,16 +4,21 @@
 
 @font-face {
     font-family: "Lora";
-    src: url('../fonts/Lora.ttf') format('truetype');
+    src: url("../fonts/Lora.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "DM Sans";
-    src: url('../fonts/DMSans.ttf') format('truetype');
+    src: url("../fonts/DMSans.ttf") format("truetype");
 }
 
 .divider {
-    background: -webkit-radial-gradient(center center, 50% 50%, rgba(0, 0, 0, .1), transparent);
+    background: -webkit-radial-gradient(
+        center center,
+        50% 50%,
+        rgba(0, 0, 0, 0.1),
+        transparent
+    );
     background-repeat: no-repeat;
     background-position: 0 -10px;
     background-size: 100% 20px;
@@ -38,43 +43,43 @@
 
 @layer components {
     .col-flex {
-        @apply flex flex-col items-center
+        @apply flex flex-col items-center;
     }
 
     .list-visible {
-        @apply flex
+        @apply flex;
     }
 
     .desc-text {
-        @apply font-body font-light text-grokBlack-500
+        @apply font-body text-grokBlack-500 font-light;
     }
 
     .responsive-px {
-        @apply px-4 mobm:px-6 lg:px-10 xl:px-16
+        @apply mobm:px-6 px-4 lg:px-10 xl:px-16;
     }
 
     .responsive-link-text {
-        @apply text-2xs mobm:text-xs md:text-sm
+        @apply text-2xs mobm:text-xs md:text-sm;
     }
 
     .responsive-heading {
-        @apply text-xl mobm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl
+        @apply mobm:text-3xl text-xl md:text-4xl lg:text-5xl xl:text-6xl;
     }
 
     .responsive-subheading {
-        @apply text-sm mobm:text-base md:text-2xl lg:text-3xl
+        @apply mobm:text-base text-sm md:text-2xl lg:text-3xl;
     }
 
     .responsive-description {
-        @apply text-3xs mobm:text-2xs md:text-xs lg:text-lg
+        @apply text-3xs mobm:text-2xs md:text-xs lg:text-lg;
     }
 
     .responsive-captions {
-        @apply text-xs md:text-base lg:text-xl
+        @apply text-xs md:text-base lg:text-xl;
     }
 
     .hover-enlarge {
-        @apply text-sm md:text-lg lg:text-2xl
+        @apply text-sm md:text-lg lg:text-2xl;
     }
 
     .transition-enlarge {
