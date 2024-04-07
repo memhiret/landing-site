@@ -14,9 +14,9 @@
                     Personalized study paths and test preparation guides,
                     helping you ace your next test.
                 </p>
-                <div class="w-full col-flex gap-4 md:gap-8">
-                    <form class="w-10/12 flex flex-col md:flex-row md:items-center items-start gap-4 md:gap-8"
-                        action="https://submit-form.com/tqcy1I2SF">
+                <form class="w-full col-flex gap-4 md:gap-8" action="https://submit-form.com/tqcy1I2SF">
+                    <div class="w-10/12 flex flex-col md:flex-row md:items-center items-start gap-4 md:gap-8"
+                        >
                         <div class="w-full">
                             <div class="mt-2 xl:mt-3">
                                 <input type="text" name="firstname-waiting" id="firstname-waiting" placeholder="First Name"
@@ -31,12 +31,12 @@
                                     required />
                             </div>
                         </div>
-                    </form>
+                    </div>
                     <FormButton :buttonClass="buttonClass" :buttonText="buttonText" />
                     <p class="lg:hidden desc-text text-base md:text-lg lg:text-xl xl:text-2xl text-center leading-loose">
                         Get notified when we're ready.
                     </p>
-                </div>
+                </form>
             </div>
             <img src="~/assets/imgs/Showcase.png" class="lg:basis-1/2 lg:w-1/2 lg:h-full rounded-md" />
         </div>

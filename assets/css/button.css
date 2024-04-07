@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .form-button {
-    background-color: #2D68FE;
+    background-color: #2D68FE !important;
 }
 
 @layer components {
