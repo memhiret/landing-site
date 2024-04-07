@@ -1,4 +1,7 @@
 <template>
+    <head>
+        <title>GrokET | For Educators</title>
+    </head>
     <div class="mt-24 md:mt-32 lg:mt-40 responsive-px py-4 col-flex">
         <div
             class="w-full md:w-11/12 xl:w-9/12 flex flex-col items-center md:flex-row-reverse md:gap-6 lg:gap-10 xl:gap-12"

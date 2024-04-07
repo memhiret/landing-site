@@ -1,4 +1,7 @@
 <template>
+    <head>
+        <title>GrokET | Home</title>
+    </head>
     <div class="flex flex-col gap-8 items-center justify-center">
         <HeroLanding />
         <GrokDesc />
