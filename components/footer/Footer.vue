@@ -3,14 +3,14 @@
         <div class="w-full flex py-4 lg:py-8 responsive-px bg-grokBlack-500">
             <div class="basis-1/2 md:basis-1/3 lg:basis-1/3 mr-8 lg:mr-0">
                 <div class="gap-2 md:gap-3 flex items-center">
-                    <SvgoLogo
-                        class="icon-rm-mg text-6xl md:text-7xl lg:text-8xl text-grokWhite-500"
+                    <SvgoMemhir_LogoType_01-05
+                        class="icon-rm-mg text-6xl md:text-7xl lg:text-9xl text-grokWhite-500"
                     />
                     <div>
                         <div
                             class="text-white font-display text-sm md:text-base lg:text-xl"
                         >
-                            iLearn ET
+                            Memhir ET
                         </div>
                         <p
                             class="text-grokWhite-500 font-body text-3xs md:text-sm lg:text-base"
@@ -56,7 +56,7 @@
                         <p
                             class="text-grokWhite-500 text-3xs md:text-xs lg:text-sm"
                         >
-                            support@ilearn.et
+                            support@memhiret.com
                         </p>
                     </div>
                     <div class="flex gap-2 items-center">

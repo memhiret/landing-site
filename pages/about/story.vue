@@ -18,7 +18,7 @@
                     class="flex flex-col gap-4 lg:gap-10 font-body font-normal text-sm xl:text-lg xl:leading-10"
                 >
                     <p>
-                        iLearn ET's mission is making quality education
+                        Memhir ET's mission is making quality education
                         accessible to everyone.
                     </p>
                     <p>

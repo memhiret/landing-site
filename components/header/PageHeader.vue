@@ -5,16 +5,9 @@
     >
         <!-- Header Logo -->
         <NuxtLink to="/">
-            <div class="md:gap-1 flex items-center">
-                <SvgoGrokLogo
-                    class="icon-rm-mg text-grokBlue-500 text-6xl md:text-5xl lg:text-7xl"
-                />
-                <div
-                    class="hidden sm:block text-black font-display font-medium md:text-2xl lg:text-4xl"
-                >
-                    GrokET
-                </div>
-            </div>
+            <SvgoMemhir_LogoType_01-04
+                class="icon-rm-mg text-grokBlue-500 text-6xl md:text-7xl lg:text-9xl"
+            />
         </NuxtLink>
         <!-- Nav Links -->
         <div>

@@ -5,7 +5,7 @@
     <div class="mt-28 md:mt-32 lg:mt-40 xl:mt-44 responsive-px py-4 col-flex">
         <div class="md:w-11/12 col-flex gap-6 md:gap-10 xl:gap-14">
             <p class="font-body font-semibold text-4xl lg:text-5xl xl:text-6xl">
-                Work at iLearn ET
+                Work at Memhir ET
             </p>
             <p class="md:w-3/4 lg:w-7/12 xl:w-1/2 desc-text text-sm lg:text-base xl:text-xl text-center leading-loose">
                 If changing how learning and education are navigated in Ethiopia
@@ -22,7 +22,7 @@
                     Join the Team and Work for a Bigger Impact.
                 </p>
                 <p class="desc-text text-base md:text-lg lg:text-xl xl:text-2xl text-center leading-loose">
-                    What Working at iLearnET means...
+                    What Working at MemhirET means...
                 </p>
             </div>
             <div class="col-flex gap-8 md:gap-12 lg:gap-16 xl:gap-20">
@@ -51,7 +51,7 @@
                         <p
                             class="font-body font-normal text-sm md:text-base lg:text-lg xl:text-xl leading-10 lg:leading-loose xl:leading-loose">
                             Make a real difference in the lives of others. At
-                            iLearnET, your work directly contributes to
+                            MemhirET, your work directly contributes to
                             empowering learners and educators around the world.
                         </p>
                     </div>
