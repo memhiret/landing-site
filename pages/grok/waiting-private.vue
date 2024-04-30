@@ -15,7 +15,7 @@
                     helping you ace your next test.
                 </p>
                 <form class="w-full col-flex gap-4 md:gap-8" action="https://submit-form.com/tqcy1I2SF">
-                    <input type="hidden" name="_redirect" value="https://groket.netlify.app" />
+                    <input type="hidden" name="_redirect" value="https://memhiret.netlify.app" />
                     <div class="w-10/12 flex flex-col md:flex-row md:items-center items-start gap-4 md:gap-8">
                         <div class="w-full">
                             <div class="mt-2 xl:mt-3">
