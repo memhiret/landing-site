@@ -1,6 +1,6 @@
 <template>
     <head>
-        <title>GrokET | Articles</title>
+        <title>MemhirET | Articles</title>
         </head>
     <CommonConstruction />
 </template>

@@ -37,7 +37,7 @@ export default {
       },
       colors: {
         'grokBlue': {
-          500: '#2D68FE',
+          500: '#153d59',
           700: '#1b3e98'
         },
         'grokWhite': {
@@ -48,7 +48,7 @@ export default {
           500: '#1E2328',
         },
         'grokYellow': {
-          500: '#FED053',
+          500: '#f2b41c',
         },
       }
     },

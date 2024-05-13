@@ -1,8 +1,8 @@
 <template>
     <head>
-        <title>GrokET | Our Story</title>
+        <title>MemhirET | Our Story</title>
     </head>
-    <div class="mt-28 md:mt-32 lg:mt-40 xl:mt-44 responsive-px py-4 col-flex">
+    <div class="mt-28 md:mt-32 lg:mt-44 responsive-px py-4 col-flex">
         <div
             class="lg:w-5/6 w-full flex flex-col md:flex-row items-start md:items-center md:gap-8 lg:gap-12"
         >

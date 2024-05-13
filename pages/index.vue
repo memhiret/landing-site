@@ -1,6 +1,6 @@
 <template>
     <head>
-        <title>GrokET | Home</title>
+        <title>MemhirET | Home</title>
     </head>
     <div class="flex flex-col gap-8 items-center justify-center">
         <HeroLanding />

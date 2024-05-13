@@ -1,5 +1,5 @@
-# GrokET
+# MemhirET
 
-Website for GrokET, a product by Memhir ET.
+Website for MemhirET.
 
 Designed & Built by [YOLET Designs](https://www.yoletent.com/yoletdesigns).

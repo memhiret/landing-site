@@ -1,6 +1,6 @@
 <template>
     <head>
-        <title>GrokET | YoungMinds</title>
+        <title>MemhirET | YoungMinds</title>
     </head>
     <CommonConstruction />
 </template>

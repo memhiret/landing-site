@@ -1,8 +1,8 @@
 <template>
     <div
-        class="w-full mt-24 md:mt-32 lg:mt-36 responsive-px py-4 md:py-6 lg:py-16 flex flex-col gap-10"
+        class="w-full mt-24 md:mt-32 lg:mt-44 responsive-px py-4 md:py-6 lg:py-16 flex flex-col gap-10"
     >
-        <div class="flex flex-col gap-4 items-center">
+        <div class="flex flex-col gap-8 items-center">
             <div
                 class="my-4 px-4 flex flex-col gap-2 lg:gap-4 items-center justify-center text-center"
             >
@@ -34,8 +34,8 @@
                 />
             </div>
         </div>
-        <div class="flex flex-col gap-2 md:gap-4 items-center">
-            <div class="flex justify-between w-full md:w-8/12 xl:w-1/2">
+        <div class="flex flex-col gap-2 md:gap-4 lg:gap-6 items-center">
+            <div class="flex justify-between w-full lg:mt-4 md:w-8/12 xl:w-1/2">
                 <div class="flex gap-2 lg:gap-4 items-center">
                     <img
                         class="h-4 w-auto md:h-6 lg:h-8"

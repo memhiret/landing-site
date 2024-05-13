@@ -1,8 +1,8 @@
 <template>
     <head>
-        <title>GrokET - Signup Waiting</title>
+        <title>MemhirET - Signup Waiting</title>
     </head>
-    <div class="mt-28 md:mt-32 lg:mt-40 xl:mt-44 mb-8 responsive-px py-4 col-flex">
+    <div class="mt-28 md:mt-32 lg:mt-44 mb-8 responsive-px py-4 col-flex">
         <div class="col-flex lg:flex-row xl:w-11/12 gap-8 xl:gap-12">
             <div class="md:basis-1/2 col-flex gap-4">
                 <SvgoGrokLogo class="icon-rm-mg text-grokBlue-500 text-8xl md:text-10xl" />
@@ -38,7 +38,7 @@
                     </p>
                 </form>
             </div>
-            <img src="~/assets/imgs/Showcase.png" class="lg:basis-1/2 lg:w-1/2 lg:h-full rounded-md" />
+            <img src="~/assets/imgs/Screens.png" class="lg:basis-1/2 lg:w-1/2 lg:h-full rounded-md" />
         </div>
     </div>
 </template>

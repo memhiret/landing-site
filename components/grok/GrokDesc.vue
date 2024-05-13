@@ -9,11 +9,11 @@
             <p
                 class="font-body font-medium text-grokBlue-700 responsive-heading"
             >
-                Meet GrokET
+                Meet MemhirET
             </p>
             <p class="desc-text responsive-description">
                 Leveraging data-driven insights and proven learning science,
-                <br />GrokET personalizes your path to standardized exam
+                <br />MemhirET personalizes your path to standardized exam
                 mastery.
             </p>
         </div>
@@ -63,11 +63,11 @@ export default {
             featureHead2: "Engaging and Interactive",
             featureHead3: "Science-Based Methods",
             featureDesc1:
-                "Say goodbye to one-size-fits-all: GrokET analyzes your strengths and weaknesses, building a personalized blueprint for exam success.",
+                "Say goodbye to one-size-fits-all: MemhirET analyzes your strengths and weaknesses, building a personalized blueprint for exam success.",
             featureDesc2:
-                "GrokET keeps you glued with interactive tools, bite-sized content, and interactive methods that fire up your brain and make learning stick.",
+                "MemhirET keeps you glued with interactive tools, bite-sized content, and interactive methods that fire up your brain and make learning stick.",
             featureDesc3:
-                "Remember more, with less effort. GrokET leverages cognitive science to build lasting memory bridges for effortless recall.",
+                "Remember more, with less effort. MemhirET leverages cognitive science to build lasting memory bridges for effortless recall.",
         };
     },
 };
