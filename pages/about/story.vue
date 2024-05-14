@@ -2,12 +2,12 @@
     <head>
         <title>MemhirET | Our Story</title>
     </head>
-    <div class="mt-28 md:mt-32 lg:mt-44 responsive-px py-4 col-flex">
+    <div class="mt-24 lg:mt-40 responsive-px py-4 col-flex">
         <div
-            class="lg:w-5/6 w-full flex flex-col md:flex-row items-start md:items-center md:gap-8 lg:gap-12"
+            class="lg:w-5/6 w-full xl:mt-8 flex flex-col md:flex-row items-start md:items-center md:gap-8 lg:gap-12"
         >
             <div
-                class="md:basis-1/2 flex flex-col items-start gap-6 md:gap-12 lg:gap-16 md:justify-between"
+                class="md:basis-1/2 flex flex-col items-start gap-6 md:gap-10 md:justify-between"
             >
                 <p
                     class="font-display font-semibold text-3xl lg:text-4xl xl:text-6xl"
@@ -40,7 +40,7 @@
             />
         </div>
         <div
-            class="lg:w-5/6 w-full xl:mt-20 flex flex-col item-start gap-6 md:gap-12 lg:gap-16"
+            class="lg:w-5/6 w-full lg:mt-10 xl:mt-20 flex flex-col item-start gap-6 md:gap-10"
         >
             <p
                 class="font-display font-semibold text-3xl lg:text-4xl xl:text-6xl"
@@ -61,58 +61,9 @@
                 </p>
             </div>
         </div>
-        <div class="lg:w-5/6 w-full mt-10 lg:mt-16 divider"></div>
+        <div class="lg:w-5/6 w-full mt-10 lg:mt-28 divider"></div>
         <div
-            class="lg:w-5/6 w-full mt-4 lg:mt-8 flex flex-col items-center gap-6 xl:gap-24"
-        >
-            <p
-                class="w-full font-display font-semibold text-3xl lg:text-4xl xl:text-6xl"
-            >
-                People
-            </p>
-            <div class="w-full flex justify-between">
-                <div class="basis-1/2 col-flex gap-2 xl:gap-8">
-                    <img
-                        class="h-24 md:h-36 lg:h-44 xl:h-48 w-24 md:w-36 lg:w-44 xl:w-48 rounded-full ring-2 ring-grokWhite-500"
-                        src="../../assets/imgs/Surafel.png"
-                        alt="Surafel Kebede"
-                    />
-                    <div class="col-flex text-center gap-1">
-                        <p
-                            class="font-body font-normal text-sm md:text-base xl:texl-xl"
-                        >
-                            Surafel Kebede
-                        </p>
-                        <p
-                            class="font-body font-light text-xs md:text-sm xl:text-lg"
-                        >
-                            Business Lead
-                        </p>
-                    </div>
-                </div>
-                <div class="basis-1/2 col-flex gap-2 xl:gap-8">
-                    <img
-                        class="h-24 md:h-36 lg:h-44 xl:h-48 w-24 md:w-36 lg:w-44 xl:w-48 rounded-full ring-2 ring-grokWhite-500"
-                        src="../../assets/imgs/Yonathan.png"
-                        alt="Yonathan Anosie"
-                    />
-                    <div class="col-flex text-center gap-1">
-                        <p
-                            class="font-body font-normal text-sm md:text-base xl:texl-xl"
-                        >
-                            Yonathan Anosie
-                        </p>
-                        <p
-                            class="font-body font-light text-xs md:text-sm xl:text-lg"
-                        >
-                            Technical Lead
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div
-            class="lg:w-5/6 w-full mt-10 lg:mt-16 xl:mt-32 flex flex-col md:flex-row items-center gap-6 md:gap-8"
+            class="lg:w-5/6 w-full mt-10 lg:mt-16 xl:mt-32 xl:mb-16 flex flex-col md:flex-row items-center gap-6 md:gap-8"
         >
             <div
                 class="basis-1/2 w-full flex flex-col gap-6 md:gap-10 lg:gap-12 xl:gap-16 items-center"

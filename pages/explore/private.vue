@@ -171,11 +171,11 @@ export default {
       buttonClass1:
         "mt-4 w-36 md:w-44 xl:w-48 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg xl:text-xl main-button hover:main-hover",
       buttonText1: "Get a Quote",
-      buttonLink1: "/grok/waiting-educator",
+      buttonLink1: "/memhir/waiting-educator",
       buttonClass2:
         "w-full md:w-44 xl:w-48 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg xl:text-xl main-button hover:main-hover",
       buttonText2: "Get a Quote",
-      buttonLink2: "/grok/waiting-educator",
+      buttonLink2: "/memhir/waiting-educator",
     };
   },
 };

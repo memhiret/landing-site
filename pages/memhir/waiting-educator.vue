@@ -2,23 +2,23 @@
   <head>
     <title>MemhirET | Educator Waiting</title>
   </head>
-  <div
-    class="mt-28 md:mt-32 lg:mt-44 mb-8 responsive-px py-4 col-flex"
-  >
-    <div class="col-flex lg:flex-row xl:w-11/12 gap-8 xl:gap-12">
+  <div class="mt-28 md:mt-32 lg:mt-44 mb-8 responsive-px py-4 col-flex">
+    <div class="xl:my-16 col-flex lg:flex-row lg:items-center xl:w-11/12 gap-8 xl:gap-16">
       <div class="md:basis-1/2 col-flex gap-4">
-        <SvgoGrokLogo
-          class="icon-rm-mg text-grokBlue-500 text-8xl md:text-10xl"
+        <img
+          src="~/assets/imgs/Memhir_LogoType_01-04.png"
+          class="mb-4 md:mb-8 h-16 md:h-24"
+          alt="MemhirET Logo"
         />
         <p
-          class="font-body font-medium text-center responsive-heading lg:text-4xl xl:text-5xl lg:tracking-wider"
+          class="md:mb-2 font-body font-medium text-center responsive-heading lg:text-4xl xl:text-5xl lg:tracking-wider"
         >
           Get you classroom running
         </p>
         <p
           class="w-11/12 md:w-1/2 lg:w-9/12 font-body font-normal text-center text-xs md:text-sm xl:text-lg lg:tracking-wide leading-relaxed xl:leading-loose"
         >
-          Level up your teaching game in the classroom and beyond by integrating
+          Level up your teaching game in the classroom and further by integrating
           MemhirET and getting access to personalized teaching guides.
         </p>
         <form
@@ -92,6 +92,7 @@
       <img
         src="~/assets/imgs/Screens.png"
         class="hidden lg:inline-block lg:basis-1/2 lg:w-1/2 lg:h-full rounded-md"
+        alt="Mobile App Showcase"
       />
     </div>
   </div>
@@ -99,6 +100,7 @@
 
 <script>
 import FormButton from "~/components/buttons/FormButton.vue";
+
 
 export default {
   components: {

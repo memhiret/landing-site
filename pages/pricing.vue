@@ -2,12 +2,12 @@
   <head>
     <title>MemhirET | Pricing</title>
   </head>
-  <div class="mt-28 md:mt-32 lg:mt-40 xl:mt-44 responsive-px py-4 col-flex">
+  <div class="mt-28 md:mt-32 lg:mt-44 responsive-px py-4 col-flex">
     <div
-      class="md:w-19/12 flex flex-col items-start md:items-center gap-2 md:gap-4 lg:gap-8 xl:gap-12"
+      class="md:w-9/12 xl:mt-8 xl:pt-8 flex flex-col items-start md:items-center gap-2 md:gap-4 lg:gap-8 xl:gap-16"
     >
       <p
-        class="font-body font-semibold text-4xl lg:text-5xl xl:text-6xl leading-normal"
+        class="font-body font-semibold text-4xl lg:text-5xl xl:text-6xl leading-normal md:text-center"
       >
         <span class="text-grokBlue-500">Simple</span> and
         <span class="text-grokBlue-500">Straighforward</span> Pricing
@@ -19,10 +19,10 @@
       </p>
     </div>
     <div
-      class="w-full md:w-9/12 lg:w-11/12 xl:w-8/12 mt-10 lg:mt-12 xl:mt-16 divider"
+      class="w-full md:w-9/12 lg:w-11/12 xl:w-8/12 mt-10 lg:mt-12 xl:mt-28 divider"
     ></div>
     <div
-      class="md:w-9/12 lg:w-11/12 xl:w-10/12 h-full col-flex lg:flex-row lg:items-stretch mt-4 xl:mt-16 mb-8 xl:mb-16 gap-6 md:gap-8 xl:gap-12"
+      class="md:w-9/12 lg:w-11/12 xl:w-10/12 h-full col-flex lg:flex-row lg:items-stretch mt-4 xl:mt-24 mb-8 xl:mb-16 gap-6 md:gap-8 xl:gap-12"
     >
       <div
         class="w-full px-6 py-4 flex flex-col gap-2 xl:gap-6 justify-between bg-grokBlack-300 bg-opacity-5 rounded-md"
@@ -39,13 +39,13 @@
           <div class="flex gap-4">
             <SvgoCheck class="icon-rm-mg text-xl" filled />
             <p class="desc-text text-3xs md:text-xs xl:text-sm leading-normal">
-              Includes test preparation guides upto 2 subjects of your choosing.
+              Includes test preparation guides upto 1 subject of your choosing.
             </p>
           </div>
           <div class="flex gap-4">
             <SvgoCheck class="icon-rm-mg text-xl" filled />
             <p class="desc-text text-3xs md:text-xs xl:text-sm leading-normal">
-              Includes pre-made study guides for upto 2 subjects of your
+              Includes pre-made study guides for upto 1 subject of your
               choosing.
             </p>
           </div>
@@ -174,8 +174,8 @@ export default {
       buttonText1: "Let me try",
       buttonText2: "I'm ready",
       buttonText3: "Contact us",
-      buttonLink1: "/grok/waiting-private",
-      buttonLink3: "/grok/waiting-educator",
+      buttonLink1: "/memhir/waiting-private",
+      buttonLink3: "/memhir/waiting-educator",
     };
   },
 };

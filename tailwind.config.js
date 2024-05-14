@@ -11,7 +11,7 @@ export default {
   theme: {
     fontFamily: {
       display: ["Lora"],
-      body: ["DM Sans"]
+      body: ["AvenirNext"],
     },
     screens: {
       'mobm': '375px',

@@ -5,7 +5,7 @@
   >
     <!-- Header Logo -->
     <NuxtLink to="/">
-      <img src="~/assets/imgs/Memhir_LogoType_01-04.png" class="h-8 md:h-12 lg:h-14 xl:h-20" />
+      <img src="~/assets/imgs/Memhir_LogoType_01-04.png" class="h-8 md:h-12 lg:h-14 xl:h-20" alt="MemhirET Logo"/>
     </NuxtLink>
     <!-- Nav Links -->
     <div>
@@ -15,10 +15,10 @@
         <li class="cursor-pointer text-button-links">
           <NuxtLink to="/#product">Products</NuxtLink>
         </li>
-        <li class="cursor-pointer text-button-links">
+        <li class="cursor-pointer hidden md:block text-button-links">
           <NuxtLink to="/articles">Articles</NuxtLink>
         </li>
-        <li class="cursor-pointer hidden md:block text-button-links">
+        <li class="cursor-pointer text-button-links">
           <NuxtLink to="/pricing">Pricing</NuxtLink>
         </li>
       </ul>
@@ -29,7 +29,7 @@
     </div>
     <HeaderHamburgerMenu />
     <!-- Desktop Actions -->
-    <div class="hidden sm:flex gap-4 lg:gap-8 items-center font-body">
+    <div class="hidden sm:flex gap-4 lg:gap-8 items-center">
       <MainButton
         :buttonClass="buttonClass"
         :buttonText="buttonText"
@@ -51,7 +51,7 @@ export default {
       buttonClass:
         "py-1 px-2 sm:py-2 sm:px-4 lg:py-3 lg:px-4 font-body sm:text-sm md:text-base lg:text-lg main-button hover:main-hover",
       buttonText: "Get Started",
-      buttonLink: "/grok/waiting-private",
+      buttonLink: "/memhir/waiting-private",
     };
   },
 };

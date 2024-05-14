@@ -40,6 +40,7 @@
                     <img
                         class="h-4 w-auto md:h-6 lg:h-8"
                         src="~/assets/imgs/math-book.png"
+                        alt="Math Book Icon"
                     />
                     <p
                         class="font-body responsive-captions hover:hover-enlarge hover:transition-enlarge"
@@ -51,6 +52,7 @@
                     <img
                         class="h-4 w-auto md:h-6 lg:h-8"
                         src="~/assets/imgs/atomic.png"
+                        alt="Physics Book Icon"
                     />
                     <p
                         class="font-body responsive-captions hover:hover-enlarge hover:transition-enlarge"
@@ -62,6 +64,7 @@
                     <img
                         class="h-4 w-auto md:h-6 lg:h-8"
                         src="~/assets/imgs/biology.png"
+                        alt="Biology Book Icon"
                     />
                     <p
                         class="font-body responsive-captions hover:hover-enlarge hover:transition-enlarge"
@@ -73,6 +76,7 @@
                     <img
                         class="h-4 w-auto md:h-6 lg:h-8"
                         src="~/assets/imgs/chemistry.png"
+                        alt="Chemistry Book Icon"
                     />
                     <p
                         class="font-body responsive-captions hover:hover-enlarge hover:transition-enlarge"
@@ -100,7 +104,7 @@ export default {
             buttonClass1:
                 "w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg main-button hover:main-hover",
             buttonText1: "Get Started",
-            buttonLink1: "/grok/waiting-private",
+            buttonLink1: "/memhir/waiting-private",
             buttonClass2:
                 "w-24 md:w-44 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg alt-button hover:button-hover",
             buttonText2: "Explore",

@@ -6,6 +6,7 @@
           <img
             src="~/assets/imgs/Memhir_LogoType_01-05.png"
             class="h-6 md:h-10"
+            alt="MemhirET Logo"
           />
           <div>
             <div

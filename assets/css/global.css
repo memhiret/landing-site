@@ -8,8 +8,33 @@
 }
 
 @font-face {
-    font-family: "DM Sans";
-    src: url("../fonts/DMSans.ttf") format("truetype");
+    font-family: "Bauhaus";
+    src: url("../fonts/BauhausRegular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "AvenirNext";
+    font-weight: 300;
+    src: url("../fonts/AvenirNextLTPro-UltLt.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "AvenirNext";
+    font-weight: 400;
+    src: url("../fonts/AvenirNextLTPro-Regular.otf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "AvenirNext";
+    font-weight: 700;
+    src: url("../fonts/AvenirNextLTPro-Bold.otf") format("truetype");
+}
+
+
+
+.main-font{
+    font-family: "Bauhaus";
 }
 
 .divider {
