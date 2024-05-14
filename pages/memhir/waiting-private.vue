@@ -23,7 +23,9 @@
         </p>
         <form
           class="w-full col-flex gap-4 md:gap-8"
-          action="https://submit-form.com/tqcy1I2SF"
+          action="/"
+          method="POST"
+          netlify
         >
           <input
             type="hidden"

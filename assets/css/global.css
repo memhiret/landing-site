@@ -76,7 +76,7 @@
     }
 
     .desc-text {
-        @apply font-body text-grokBlack-500 font-light;
+        @apply font-body text-grokBlack-500;
     }
 
     .responsive-px {
