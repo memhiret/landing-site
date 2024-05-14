@@ -37,7 +37,7 @@
       </div>
       <div>
         <li class="active:text-grokBlue-500" @click="toggleHam">
-          <NuxtLink to="/pricing">Pricing</NuxtLink>
+          <NuxtLink to="/articles">Articles</NuxtLink>
         </li>
       </div>
     </ul>

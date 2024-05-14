@@ -3,7 +3,9 @@
     <title>MemhirET | Educator Waiting</title>
   </head>
   <div class="mt-28 md:mt-32 lg:mt-44 mb-8 responsive-px py-4 col-flex">
-    <div class="xl:my-16 col-flex lg:flex-row lg:items-center xl:w-11/12 gap-8 xl:gap-16">
+    <div
+      class="xl:my-16 col-flex lg:flex-row lg:items-center xl:w-11/12 gap-8 xl:gap-16"
+    >
       <div class="md:basis-1/2 col-flex gap-4">
         <img
           src="~/assets/imgs/Memhir_LogoType_01-04.png"
@@ -18,18 +20,16 @@
         <p
           class="w-11/12 md:w-1/2 lg:w-9/12 font-body font-normal text-center text-xs md:text-sm xl:text-lg lg:tracking-wide leading-relaxed xl:leading-loose"
         >
-          Level up your teaching game in the classroom and further by integrating
-          MemhirET and getting access to personalized teaching guides.
+          Level up your teaching game in the classroom and further by
+          integrating MemhirET and getting access to personalized teaching
+          guides.
         </p>
         <form
           class="w-full col-flex gap-4 md:gap-8"
           action="https://submit-form.com/tZXD6hvP3"
         >
-          <input
-            type="hidden"
-            name="_redirect"
-            value="https://memhiret.com"
-          />
+          <input type="hidden" name="_redirect" value="https://memhiret.com" />
+          <input type="hidden" name="_append" value="false" />
           <div
             class="w-10/12 flex flex-col md:flex-row md:items-center items-start gap-4 md:gap-8"
           >
@@ -100,7 +100,6 @@
 
 <script>
 import FormButton from "~/components/buttons/FormButton.vue";
-
 
 export default {
   components: {

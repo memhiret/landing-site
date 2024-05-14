@@ -1,7 +1,31 @@
+<script>
+import FormButton from "~/components/buttons/FormButton.vue";
+import MainButton from "~/components/buttons/MainButton.vue";
+
+export default {
+  components: {
+    FormButton,
+    MainButton,
+  },
+  data() {
+    return {
+      buttonClass:
+        "mt-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg form-button main-button hover:main-hover",
+      buttonText: "Join Waitlist",
+      buttonClassMain:
+        "mt-4 mb-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg alt-button hover:button-hover",
+      buttonTextMain: "For Educators",
+      buttonLinkMain: "/memhir/waiting-educator",
+    };
+  },
+};
+</script>
+
 <template>
   <head>
     <title>MemhirET - Signup Waiting</title>
   </head>
+  <Toaster />
   <div class="mt-28 md:mt-32 lg:mt-44 mb-8 responsive-px py-4 col-flex">
     <div class="xl:my-16 col-flex lg:flex-row xl:w-11/12 gap-8 xl:gap-16">
       <div class="md:basis-1/2 col-flex gap-4">
@@ -25,11 +49,8 @@
           class="w-full col-flex gap-4 md:gap-8"
           action="https://submit-form.com/tqcy1I2SF"
         >
-          <input
-            type="hidden"
-            name="_redirect"
-            value="https://memhiret.com"
-          />
+          <input type="hidden" name="_redirect" value="https://memhiret.com" />
+          <input type="hidden" name="_append" value="false" />
           <div
             class="w-10/12 flex flex-col md:flex-row md:items-center items-start gap-4 md:gap-8"
           >
@@ -79,26 +100,3 @@
     </div>
   </div>
 </template>
-
-<script>
-import FormButton from "~/components/buttons/FormButton.vue";
-import MainButton from "~/components/buttons/MainButton.vue";
-
-export default {
-  components: {
-    FormButton,
-    MainButton,
-  },
-  data() {
-    return {
-      buttonClass:
-        "mt-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg form-button main-button hover:main-hover",
-      buttonText: "Join Waitlist",
-      buttonClassMain:
-        "mt-4 mb-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg alt-button hover:button-hover",
-      buttonTextMain: "For Educators",
-      buttonLinkMain: "/memhir/waiting-educator",
-    };
-  },
-};
-</script>
