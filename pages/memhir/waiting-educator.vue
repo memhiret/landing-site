@@ -28,7 +28,7 @@
           <input
             type="hidden"
             name="_redirect"
-            value="https://memhiret.netlify.app"
+            value="https://memhiret.com"
           />
           <div
             class="w-10/12 flex flex-col md:flex-row md:items-center items-start gap-4 md:gap-8"
