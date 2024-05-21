@@ -1,3 +1,59 @@
+<script>
+import FormButton from "~/components/buttons/FormButton.vue";
+
+export default {
+  components: {
+    FormButton,
+  },
+  data() {
+    return {
+      buttonClass:
+        "mt-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg form-button main-button hover:main-hover",
+      buttonText: "Get a Quote",
+      firstname: "",
+      lastname: "",
+      email: "",
+      organization: "",
+    };
+  },
+  methods: {
+    async submitForm() {
+      try {
+        const response = await fetch("https://submit-form.com/tZXD6hvP3", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify({
+            firstname: this.firstname,
+            lastname: this.lastname,
+            email: this.email,
+            organization: this.organization,
+          }),
+        });
+        if (response.ok) {
+          alert("You'll be notified when we launch! Thank you for signing up!");
+          this.$router.replace("/");
+        } else {
+          this.firstname = "";
+          this.lastname = "";
+          this.email = "";
+          this.organization = "";
+          alert("Failed to submit form!");
+        }
+      } catch (e) {
+        alert("Error occured: ", e);
+        this.firstname = "";
+        this.lastname = "";
+        this.email = "";
+        this.organization = "";
+      }
+    },
+  },
+};
+</script>
+
 <template>
   <head>
     <title>MemhirET | Educator Waiting</title>
@@ -26,10 +82,8 @@
         </p>
         <form
           class="w-full col-flex gap-4 md:gap-8"
-          action="https://submit-form.com/tZXD6hvP3"
+          @submit.prevent="submitForm"
         >
-          <input type="hidden" name="_redirect" value="https://memhiret.com" />
-          <input type="hidden" name="_append" value="false" />
           <div
             class="w-10/12 flex flex-col md:flex-row md:items-center items-start gap-4 md:gap-8"
           >
@@ -37,10 +91,13 @@
               <div class="mt-2 xl:mt-3">
                 <input
                   type="text"
-                  name="firstname-waiting-e"
-                  id="firstname-waiting-e"
+                  name="firstname-e"
+                  id="firstname-e"
+                  v-model="firstname"
                   placeholder="First Name"
                   class="block w-full rounded-md border-0 px-2 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-grokBlue-500"
+                  minlength="2"
+                  maxlength="24"
                   required
                 />
               </div>
@@ -49,10 +106,13 @@
               <div class="mt-2 xl:mt-3">
                 <input
                   type="text"
-                  name="lastname-waiting"
-                  id="lastname-waiting"
+                  name="lastname-e"
+                  id="lastname-e"
+                  v-model="lastname"
                   placeholder="Last Name"
                   class="block w-full rounded-md border-0 px-2 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-grokBlue-500"
+                  minlength="2"
+                  maxlength="24"
                   required
                 />
               </div>
@@ -64,9 +124,10 @@
             <div class="w-full">
               <div class="mt-2 xl:mt-3">
                 <input
-                  type="text"
-                  name="email-private"
-                  id="email-private"
+                  type="email"
+                  name="email-e"
+                  id="email-e"
+                  v-model="email"
                   placeholder="Email"
                   class="block w-full rounded-md border-0 px-2 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-grokBlue-500"
                   required
@@ -77,10 +138,13 @@
               <div class="mt-2 xl:mt-3">
                 <input
                   type="text"
-                  name="org-waiting"
-                  id="org-waiting"
+                  name="org-e"
+                  id="org-e"
+                  v-model="organization"
                   placeholder="Organization"
                   class="block w-full rounded-md border-0 px-2 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-grokBlue-500"
+                  minlength="2"
+                  maxlength="32"
                   required
                 />
               </div>
@@ -97,20 +161,3 @@
     </div>
   </div>
 </template>
-
-<script>
-import FormButton from "~/components/buttons/FormButton.vue";
-
-export default {
-  components: {
-    FormButton,
-  },
-  data() {
-    return {
-      buttonClass:
-        "mt-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg form-button main-button hover:main-hover",
-      buttonText: "Get a Quote",
-    };
-  },
-};
-</script>

@@ -2,7 +2,6 @@
   <head>
     <title>MemhirET | Home</title>
   </head>
-  <Toaster />
   <div class="flex flex-col gap-8 items-center justify-center">
     <HeroLanding />
     <GrokDesc />

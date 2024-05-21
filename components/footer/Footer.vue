@@ -10,7 +10,7 @@
           />
           <div>
             <div
-              class="text-white font-display text-sm md:text-base lg:text-xl"
+              class="text-white main-font text-sm md:text-base lg:text-xl"
             >
               MemhirET
             </div>

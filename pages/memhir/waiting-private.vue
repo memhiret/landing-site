@@ -16,7 +16,36 @@ export default {
         "mt-4 mb-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg alt-button hover:button-hover",
       buttonTextMain: "For Educators",
       buttonLinkMain: "/memhir/waiting-educator",
+      firstname: "",
+      email: "",
     };
+  },
+  methods: {
+    async submitForm() {
+      try {
+        const response = await fetch("https://submit-form.com/tqcy1I2SF", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: JSON.stringify({
+            firstname: this.firstname,
+            email: this.email,
+          }),
+        });
+        if (response.ok) {
+          alert("You'll be notified when we launch! Thank you for signing up!");
+          this.$router.replace("/");
+        } else {
+          alert("Failed to submit form!");
+        }
+      } catch (e) {
+        alert("Error occured: ", e);
+        this.firstname = "";
+        this.email = "";
+      }
+    },
   },
 };
 </script>
@@ -25,7 +54,6 @@ export default {
   <head>
     <title>MemhirET - Signup Waiting</title>
   </head>
-  <Toaster />
   <div class="mt-28 md:mt-32 lg:mt-44 mb-8 responsive-px py-4 col-flex">
     <div class="xl:my-16 col-flex lg:flex-row xl:w-11/12 gap-8 xl:gap-16">
       <div class="md:basis-1/2 col-flex gap-4">
@@ -47,10 +75,8 @@ export default {
         </p>
         <form
           class="w-full col-flex gap-4 md:gap-8"
-          action="https://submit-form.com/tqcy1I2SF"
+          @submit.prevent="submitForm"
         >
-          <input type="hidden" name="_redirect" value="https://memhiret.com" />
-          <input type="hidden" name="_append" value="false" />
           <div
             class="w-10/12 flex flex-col md:flex-row md:items-center items-start gap-4 md:gap-8"
           >
@@ -58,10 +84,13 @@ export default {
               <div class="mt-2 xl:mt-3">
                 <input
                   type="text"
-                  name="firstname-waiting"
-                  id="firstname-waiting"
+                  name="firstname"
+                  id="firstname"
+                  v-model="firstname"
                   placeholder="First Name"
                   class="block w-full rounded-md border-0 px-2 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-grokBlue-500"
+                  minlength="2"
+                  maxlength="24"
                   required
                 />
               </div>
@@ -72,6 +101,7 @@ export default {
                   type="text"
                   name="email"
                   id="email"
+                  v-model="email"
                   placeholder="Email"
                   class="block w-full rounded-md border-0 px-2 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-grokBlue-500"
                   required
