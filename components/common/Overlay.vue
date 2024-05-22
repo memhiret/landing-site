@@ -1,3 +1,3 @@
 <template>
-    <div id="overlay"></div>
+  <div id="overlay"></div>
 </template>

@@ -10,8 +10,8 @@
         MemhirET
       </p>
       <p class="desc-text responsive-description text-center">
-        Leveraging data-driven insights and proven learning science,
-        MemhirET personalizes your path to standardized exam mastery.
+        Leveraging data-driven insights and proven learning science, MemhirET
+        personalizes your path to standardized exam mastery.
       </p>
     </div>
     <div class="md:w-9/12 col-flex gap-12 lg:gap-16">

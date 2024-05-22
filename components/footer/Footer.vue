@@ -9,9 +9,7 @@
             alt="MemhirET Logo"
           />
           <div>
-            <div
-              class="text-white main-font text-sm md:text-base lg:text-xl"
-            >
+            <div class="text-white main-font text-sm md:text-base lg:text-xl">
               MemhirET
             </div>
             <p
