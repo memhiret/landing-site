@@ -93,7 +93,7 @@
     }
 
     .responsive-description {
-        @apply text-3xs mobm:text-2xs md:text-xs lg:text-lg;
+        @apply text-xs md:text-base lg:text-lg leading-5;
     }
 
     .responsive-captions {

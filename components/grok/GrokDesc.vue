@@ -9,9 +9,9 @@
       <p class="main-font font-medium text-grokBlue-700 responsive-heading">
         MemhirET
       </p>
-      <p class="desc-text responsive-description">
+      <p class="desc-text responsive-description text-center">
         Leveraging data-driven insights and proven learning science,
-        <br />MemhirET personalizes your path to standardized exam mastery.
+        MemhirET personalizes your path to standardized exam mastery.
       </p>
     </div>
     <div class="md:w-9/12 col-flex gap-12 lg:gap-16">
