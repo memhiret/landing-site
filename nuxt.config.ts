@@ -1,8 +1,21 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      charset: "utf-8",
-      viewport: "width=device-width, initial-scale=1",
+      title: "MemhirET",
+      meta: [
+        {
+          name: "description",
+          content: "Personalized Test-Prep Paths and Study Guides.",
+        },
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        { property: "og:title", content: "MemhirET" },
+        {
+          property: "og:description",
+          content: "Personalized Test-Prep Paths and Study Guides.",
+        },
+        { property: "og:url", content: "https://memhiret.com" },
+        { property: "og:type", content: "website" },
+      ],
       link: [
         {
           rel: "icon",

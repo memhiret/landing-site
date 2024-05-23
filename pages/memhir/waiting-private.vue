@@ -52,7 +52,9 @@ export default {
 
 <template>
   <head>
-    <title>MemhirET - Signup Waiting</title>
+    <title>
+      MemhirET | Waiting Students
+    </title>
   </head>
   <div class="mt-28 md:mt-32 lg:mt-44 mb-8 responsive-px py-4 col-flex">
     <div class="xl:my-16 col-flex lg:flex-row xl:w-11/12 gap-8 xl:gap-16">
@@ -65,7 +67,8 @@ export default {
         <p
           class="md:mb-2 main-font lowercase font-medium text-center responsive-heading lg:text-4xl xl:text-5xl lg:tracking-wider"
         >
-          Pure Test-Taking <span
+          Pure Test-Taking
+          <span
             class="inline-block mt-3 md:mt-8 p-2 md:p-4 rounded-md bg-grokBlue-500 text-grokWhite-500"
             >Mastery</span
           >

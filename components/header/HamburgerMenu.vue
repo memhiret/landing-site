@@ -45,6 +45,7 @@
           :buttonClass="buttonClass"
           :buttonText="buttonText"
           :buttonLink="buttonLink"
+          @click="toggleHam"
         />
       </div>
     </ul>
