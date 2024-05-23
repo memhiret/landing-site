@@ -45,7 +45,6 @@ export default defineNuxtConfig({
     },
   },
   devtools: { enabled: true },
-  ssr: true,
   css: [
     "~/assets/css/global.css",
     "~/assets/css/button.css",
@@ -66,4 +65,5 @@ export default defineNuxtConfig({
       scrollBehaviorType: "smooth",
     },
   },
+  ssr: true,
 });
