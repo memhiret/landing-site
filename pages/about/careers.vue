@@ -2,7 +2,7 @@
   <head>
     <title>MemhirET | Careers</title>
   </head>
-  <div class="mt-28 md:mt-32 lg:mt-44 responsive-px py-4 col-flex">
+  <div class="mt-28 md:mt-32 lg:mt-44 responsive-px py-4 md:py-6 lg:py-16 col-flex">
     <div class="md:w-11/12 col-flex gap-6 md:gap-10 xl:gap-14">
       <p class="font-body font-semibold text-4xl lg:text-5xl xl:text-6xl">
         Work at Memhir ET

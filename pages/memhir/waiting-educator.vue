@@ -69,16 +69,15 @@ export default {
           alt="MemhirET Logo"
         />
         <p
-          class="md:mb-2 font-body font-medium text-center responsive-heading lg:text-4xl xl:text-5xl lg:tracking-wider"
+          class="md:mb-2 main-font font-medium text-center responsive-heading lg:text-4xl xl:text-5xl lg:tracking-wider"
         >
-          Get you classroom running
+          Get your classroom running
         </p>
         <p
           class="w-11/12 md:w-1/2 lg:w-9/12 font-body font-normal text-center text-xs md:text-sm xl:text-lg lg:tracking-wide leading-relaxed xl:leading-loose"
         >
-          Level up your teaching game in the classroom and further by
-          integrating MemhirET and getting access to personalized teaching
-          guides.
+          Level up your teaching game in the classroom by
+          integrating MemhirET into your workflow.
         </p>
         <form
           class="w-full col-flex gap-4 md:gap-8"

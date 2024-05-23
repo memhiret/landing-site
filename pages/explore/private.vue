@@ -2,9 +2,11 @@
   <head>
     <title>MemhirET | For Educators</title>
   </head>
-  <div class="mt-24 md:mt-32 lg:mt-48 responsive-px py-4 col-flex">
+  <div
+    class="mt-24 md:mt-32 lg:mt-48 responsive-px py-4 md:py-6 lg:py-16 col-flex gap-8"
+  >
     <div
-      class="w-full md:w-11/12 xl:w-9/12 flex flex-col items-center md:flex-row-reverse md:gap-6 lg:gap-10 xl:gap-12"
+      class="w-full md:w-11/12 xl:w-8/12 flex flex-col items-center md:flex-row-reverse md:gap-6 lg:gap-10 xl:gap-12"
     >
       <SvgoPrivate class="icon-rm-mg text-14xl md:basis-1/2" filled />
       <div class="md:basis-1/2 flex flex-col items-start gap-4 md:gap-8">
@@ -28,10 +30,10 @@
       </div>
     </div>
     <div
-      class="w-full md:w-11/12 xl:w-9/12 mt-10 lg:mt-12 xl:mt-16 divider"
+      class="w-full md:w-11/12 xl:w-8/12 mt-10 lg:mt-12 xl:mt-16 divider"
     ></div>
     <div
-      class="md:w-11/12 xl:w-9/12 mt-4 lg:mt-12 xl:mt-16 md:mt-8 col-flex md:gap-6 lg:gap-12 xl:gap-24"
+      class="md:w-11/12 xl:w-8/12 mt-4 lg:mt-12 xl:mt-16 md:mt-8 col-flex md:gap-6 lg:gap-12 xl:gap-24"
     >
       <p
         class="font-body font-semibold text-center text-xl md:text-3xl xl:text-4xl leading-10 tracking-wider"
@@ -62,10 +64,10 @@
       </div>
     </div>
     <div
-      class="w-full md:w-11/12 xl:w-9/12 mt-10 lg:mt-12 xl:mt-16 divider"
+      class="w-full md:w-11/12 xl:w-8/12 mt-10 lg:mt-12 xl:mt-16 divider"
     ></div>
     <div
-      class="md:w-11/12 xl:w-9/12 mt-4 md:mt-8 lg:mt-12 xl:mt-16 col-flex md:gap-6 lg:gap-12 xl:gap-24"
+      class="md:w-11/12 xl:w-8/12 mt-4 md:mt-8 lg:mt-12 xl:mt-16 col-flex md:gap-6 lg:gap-12 xl:gap-24"
     >
       <p
         class="font-body font-semibold text-center text-xl md:text-3xl xl:text-4xl leading-10 tracking-wider"
@@ -94,7 +96,7 @@
       </div>
     </div>
     <div
-      class="w-full md:w-11/12 xl:w-9/12 mt-10 lg:mt-12 xl:mt-16 divider"
+      class="w-full md:w-11/12 xl:w-8/12 mt-10 lg:mt-12 xl:mt-16 divider"
     ></div>
     <div
       class="md:w-11/12 mt-4 lg:mt-12 xl:mt-16 md:mt-8 col-flex md:gap-6 lg:gap-12 xl:gap-24"
@@ -123,10 +125,10 @@
       </div>
     </div>
     <div
-      class="w-full md:w-11/12 xl:w-9/12 mt-10 lg:mt-12 xl:mt-16 divider"
+      class="w-full md:w-11/12 xl:w-8/12 mt-10 lg:mt-12 xl:mt-16 divider"
     ></div>
     <div
-      class="md:w-11/12 xl:w-9/12 mt-4 md:mt-8 lg:mt-12 xl:mt-16 mb-4 col-flex gap-10 md:gap-4 xl:gap-14"
+      class="md:w-11/12 xl:w-8/12 mt-4 md:mt-8 lg:mt-12 xl:mt-16 mb-4 col-flex gap-10 md:gap-4 xl:gap-14"
     >
       <p
         class="md:w-3/4 font-body font-semibold text-center text-2xl md:text-3xl xl:text-4xl leading-10 md:leading-relaxed xl:leading-loose tracking-wider"

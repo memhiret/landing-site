@@ -11,7 +11,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      display: ["Lora"],
+      display: ["Bauhaus"],
       body: ["AvenirNext"],
     },
     screens: {
