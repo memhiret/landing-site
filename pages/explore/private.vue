@@ -1,7 +1,8 @@
 <template>
-  <head>
-    <title>MemhirET | For Educators</title>
-  </head>
+  <Head>
+    <Title>MemhirET | Private Educators</Title>
+    <Meta name="description" content="MemhirET for private educators." />
+  </Head>
   <div
     class="mt-24 md:mt-32 lg:mt-48 responsive-px py-4 md:py-6 lg:py-16 col-flex gap-8"
   >

@@ -1,17 +1,24 @@
 <template>
-  <head>
-    <title>MemhirET | Careers</title>
-  </head>
-  <div class="mt-28 md:mt-32 lg:mt-44 responsive-px py-4 md:py-6 lg:py-16 col-flex">
+  <Head>
+    <Title>MemhirET | Careers</Title>
+    <Meta name="description" content="Careers at MemhirET" />
+  </Head>
+  <div
+    class="mt-28 md:mt-32 lg:mt-44 responsive-px py-4 md:py-6 lg:py-16 col-flex"
+  >
     <div class="md:w-11/12 col-flex gap-6 md:gap-10 xl:gap-14">
-      <p class="font-body font-semibold text-4xl lg:text-5xl xl:text-6xl">
-        Work at Memhir ET
+      <p class="main-font font-bold text-5xl xl:text-6xl text-center">
+        Work at
+        <span
+          class="inline-block mt-4 md:mt-0 p-2 md:p-4 rounded-md bg-grokBlue-500 text-grokWhite-500"
+          >MemhirET</span
+        >
       </p>
       <p
         class="md:w-3/4 lg:w-7/12 xl:w-1/2 desc-text text-sm lg:text-base xl:text-xl text-center leading-loose"
       >
-        If changing how learning and education are navigated in Ethiopia
-        intriguies you, checkout some of our open positions and join our team.
+        Changing how education is navigated in Ethiopia intriguies you? Then
+        checkout some of our open positions and join our team.
       </p>
       <MainButton
         :buttonClass="buttonClass1"
@@ -26,7 +33,7 @@
       class="col-flex mt-4 md:mt-8 xl:mt-16 md:w-11/12 xl:w-9/12 gap-6 md:gap-10 xl:gap-14"
     >
       <div
-        class="flex flex-col gap-4 md:gap-8 lg:gap-12 items-start md:items-center"
+        class="flex flex-col gap-4 md:gap-8 lg:gap-12 items-start md:items-center px-4 py-2 md:px-8 md:py-6 lg:px-12 lg:py-10 xl:px-16 xl:py-16"
       >
         <p
           class="md:w-5/6 xl:w-3/4 font-body font-bold text-grokBlue-500 text-4xl md:text-5xl xl:text-6xl xl:leading-relaxed md:text-center"

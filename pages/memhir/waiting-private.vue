@@ -51,11 +51,10 @@ export default {
 </script>
 
 <template>
-  <head>
-    <title>
-      MemhirET | Waiting Students
-    </title>
-  </head>
+  <Head>
+    <Title>MemhirET | Waiting List - Students</Title>
+    <Meta name="description" content="Waiting list for students." />
+  </Head>
   <div class="mt-28 md:mt-32 lg:mt-44 mb-8 responsive-px py-4 col-flex">
     <div class="xl:my-16 col-flex lg:flex-row xl:w-11/12 gap-8 xl:gap-16">
       <div class="md:basis-1/2 col-flex gap-6">

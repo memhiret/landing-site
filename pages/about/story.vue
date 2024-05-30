@@ -1,7 +1,8 @@
 <template>
-  <head>
-    <title>MemhirET | Our Story</title>
-  </head>
+  <Head>
+    <Title>MemhirET | Our Story</Title>
+    <Meta name="description" content="MemhirET's origin story and values." />
+  </Head>
   <div class="mt-24 lg:mt-40 responsive-px py-4 col-flex">
     <div
       class="lg:w-5/6 w-full xl:mt-8 flex flex-col md:flex-row items-start md:items-center md:gap-8 lg:gap-12"

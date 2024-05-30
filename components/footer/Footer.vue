@@ -45,14 +45,14 @@
               support@memhiret.com
             </p>
           </div>
-          <div class="flex gap-2 items-center">
+          <!-- <div class="flex gap-2 items-center">
             <SvgoCall
               class="icon-rm-mg text-base md:text-xl lg:text-2xl text-grokWhite-500 text-opacity-50"
             />
             <p class="text-grokWhite-500 text-3xs md:text-xs lg:text-sm">
-              +251 - 912 - 345678
+              xxxxxxxx
             </p>
-          </div>
+          </div> -->
         </div>
       </div>
       <div

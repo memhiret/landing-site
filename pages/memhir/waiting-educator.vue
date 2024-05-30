@@ -1,15 +1,21 @@
 <script>
 import FormButton from "~/components/buttons/FormButton.vue";
+import MainButton from "~/components/buttons/MainButton.vue";
 
 export default {
   components: {
     FormButton,
+    MainButton,
   },
   data() {
     return {
       buttonClass:
         "mt-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg form-button main-button hover:main-hover",
       buttonText: "Get a Quote",
+      buttonClassMain:
+        "mt-4 mb-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg alt-button hover:button-hover",
+      buttonTextMain: "For Students",
+      buttonLinkMain: "/memhir/waiting-private",
       firstname: "",
       lastname: "",
       email: "",
@@ -55,9 +61,10 @@ export default {
 </script>
 
 <template>
-  <head>
-    <title>MemhirET | Educator Waiting</title>
-  </head>
+  <Head>
+    <Title>MemhirET | Waiting List - Educators</Title>
+    <Meta name="description" content="Waiting list for educators." />
+  </Head>
   <div class="mt-28 md:mt-32 lg:mt-44 mb-8 responsive-px py-4 col-flex">
     <div
       class="xl:my-16 col-flex lg:flex-row lg:items-center xl:w-11/12 gap-8 xl:gap-16"
@@ -76,8 +83,8 @@ export default {
         <p
           class="w-11/12 md:w-1/2 lg:w-9/12 font-body font-normal text-center text-xs md:text-sm xl:text-lg lg:tracking-wide leading-relaxed xl:leading-loose"
         >
-          Level up your teaching game in the classroom by
-          integrating MemhirET into your workflow.
+          Level up your teaching game in the classroom by integrating MemhirET
+          into your workflow.
         </p>
         <form
           class="w-full col-flex gap-4 md:gap-8"
@@ -151,6 +158,11 @@ export default {
           </div>
           <FormButton :buttonClass="buttonClass" :buttonText="buttonText" />
         </form>
+        <MainButton
+          :buttonClass="buttonClassMain"
+          :buttonText="buttonTextMain"
+          :buttonLink="buttonLinkMain"
+        />
       </div>
       <img
         src="~/assets/imgs/Screens.png"

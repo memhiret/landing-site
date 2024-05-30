@@ -1,8 +1,11 @@
 <template>
-  <head>
-    <title>MemhirET | Pricing</title>
-  </head>
-  <div class="mt-28 md:mt-32 lg:mt-44 responsive-px py-4 md:py-6 lg:py-16 col-flex">
+  <Head>
+    <Title>MemhirET | Pricing</Title>
+    <Meta name="description" content="MemhirET | Pricing" />
+  </Head>
+  <div
+    class="mt-28 md:mt-32 lg:mt-44 responsive-px py-4 md:py-6 lg:py-16 col-flex"
+  >
     <div
       class="md:w-9/12 xl:mt-8 xl:pt-8 flex flex-col items-start md:items-center gap-2 md:gap-4 lg:gap-8 xl:gap-16"
     >

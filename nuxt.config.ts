@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "MemhirET",
+      title: "MemhirET | Test Prep and Study Guides",
       meta: [
         {
           name: "description",
