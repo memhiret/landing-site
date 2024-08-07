@@ -20,13 +20,17 @@
           </div>
         </div>
         <div
-          class="md:w-10/12 lg:w-9/12 flex justify-between mt-4 text-grokWhite-500"
+          class="md:w-10/12 lg:w-9/12 flex gap-8 md:gap-16 mt-4 text-grokWhite-500"
         >
-          <SvgoFacebook class="icon-rm-mg text-lg md:text-2xl lg:text-3xl" />
-          <SvgoInstagram class="icon-rm-mg text-lg md:text-2xl lg:text-3xl" />
-          <SvgoLinkedin class="icon-rm-mg text-lg md:text-2xl lg:text-3xl" />
-          <SvgoTwitter class="icon-rm-mg text-lg md:text-2xl lg:text-3xl" />
-          <SvgoYoutube class="icon-rm-mg text-lg md:text-2xl lg:text-3xl" />
+          <a href="https://www.instagram.com/memhiret/"
+            ><SvgoInstagram class="icon-rm-mg text-lg md:text-2xl lg:text-3xl"
+          /></a>
+          <a href="https://www.linkedin.com/company/memhir-et/"
+            ><SvgoLinkedin class="icon-rm-mg text-lg md:text-2xl lg:text-3xl"
+          /></a>
+          <a href="https://www.x.com/MemhirET"
+            ><SvgoTwitter class="icon-rm-mg text-lg md:text-2xl lg:text-3xl"
+          /></a>
         </div>
         <div class="flex flex-col mt-5 gap-2 md:gap-4">
           <div class="flex gap-2 items-center">
@@ -34,7 +38,7 @@
               class="icon-rm-mg text-base md:text-xl lg:text-2xl text-grokWhite-500 text-opacity-50"
             />
             <p class="text-grokWhite-500 text-3xs md:text-xs lg:text-sm">
-              Addis Ababa, Ethiopia
+              St. Rufael Bldg, Ayat Avenue<br />Addis Ababa, Ethiopia
             </p>
           </div>
           <div class="flex gap-2 items-center">
@@ -42,17 +46,17 @@
               class="icon-rm-mg text-base md:text-xl lg:text-2xl text-grokWhite-500 text-opacity-50"
             />
             <p class="text-grokWhite-500 text-3xs md:text-xs lg:text-sm">
-              support@memhiret.com
+              contact@memhiret.com
             </p>
           </div>
-          <!-- <div class="flex gap-2 items-center">
+          <div class="flex gap-2 items-center">
             <SvgoCall
               class="icon-rm-mg text-base md:text-xl lg:text-2xl text-grokWhite-500 text-opacity-50"
             />
             <p class="text-grokWhite-500 text-3xs md:text-xs lg:text-sm">
-              xxxxxxxx
+              +251-977-162391
             </p>
-          </div> -->
+          </div>
         </div>
       </div>
       <div
