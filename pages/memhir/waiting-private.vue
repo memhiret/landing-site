@@ -9,9 +9,7 @@ export default {
   },
   data() {
     return {
-      buttonClass:
-        "mt-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg form-button main-button hover:main-hover",
-      buttonText: "Join Waitlist",
+      isSubmitting: false,
       buttonClassMain:
         "mt-4 mb-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg alt-button hover:button-hover",
       buttonTextMain: "For Educators",
@@ -20,9 +18,20 @@ export default {
       email: "",
     };
   },
+  computed: {
+    buttonText() {
+      return this.isSubmitting ? "Submitting..." : "Join";
+    },
+    buttonClass() {
+      return this.isSubmitting
+        ? "mt-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg form-button main-button hover:main-hover opacity-50"
+        : "mt-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg form-button main-button hover:main-hover";
+    },
+  },
   methods: {
     async submitForm() {
       try {
+        this.isSubmitting = true;
         const response = await fetch("https://submit-form.com/tqcy1I2SF", {
           method: "POST",
           headers: {
@@ -44,6 +53,8 @@ export default {
         alert("Error occured: ", e);
         this.firstname = "";
         this.email = "";
+      } finally {
+        this.isSubmitting = false;
       }
     },
   },
@@ -114,7 +125,11 @@ export default {
               </div>
             </div>
           </div>
-          <FormButton :buttonClass="buttonClass" :buttonText="buttonText" />
+          <FormButton
+            :buttonClass="buttonClass"
+            :buttonText="buttonText"
+            :disabled="isSubmitting"
+          />
           <MainButton
             :buttonClass="buttonClassMain"
             :buttonText="buttonTextMain"
