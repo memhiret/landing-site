@@ -110,10 +110,15 @@
           <div class="basis-1/2 md:basis-1/4 flex flex-col gap-2 md:gap-4">
             <p class="text-grokWhite-500 text-xs lg:text-base">Help</p>
             <ul
-              class="flex flex-col gap-1 md:gap-2 lg:gap-4 text-2xs lg:text-sm text-grokWhite-500 text-opacity-60"
+              class="flex flex-col gap-2 md:gap-2 lg:gap-4 text-2xs lg:text-sm text-grokWhite-500 text-opacity-60"
             >
               <li class="hover:text-button-hover">
-                <NuxtLink to="/help/documentation">Documentation</NuxtLink>
+                <NuxtLink href="/docs/privacy.md" target="_blank"
+                  >Privacy Policy</NuxtLink
+                >
+              </li>
+              <li class="hover:text-button-hover">
+                <NuxtLink href="/docs/terms.md" target="_blank">Terms</NuxtLink>
               </li>
             </ul>
           </div>

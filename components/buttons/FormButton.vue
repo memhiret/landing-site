@@ -9,12 +9,16 @@ export default {
       type: String,
       required: true,
     },
+    isSubmitting: {
+      type: Boolean,
+      required: true,
+    },
   },
 };
 </script>
 
 <template>
-  <button :class="buttonClass" type="submit">
+  <button :class="buttonClass" type="submit" :disabled="isSubmitting">
     {{ buttonText }}
   </button>
 </template>
