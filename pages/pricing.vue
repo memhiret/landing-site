@@ -177,8 +177,8 @@ export default {
       buttonText1: "Let me try",
       buttonText2: "I'm ready",
       buttonText3: "Contact us",
-      buttonLink1: "/memhir/waiting-private",
-      buttonLink3: "/memhir/waiting-educator",
+      buttonLink1: "/waiting-private",
+      buttonLink3: "/waiting-educator",
     };
   },
 };

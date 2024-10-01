@@ -22,13 +22,13 @@
         class="w-full flex justify-between md:justify-center md:gap-4 items-center"
       >
         <div class="basis-1/2 flex flex-col items-start gap-8">
-          <NuxtLink to="/memhir/waiting-private"
+          <NuxtLink to="/waiting-private"
             ><SvgoAppStore
               class="icon-rm-mg h-12 xl:h-20 w-auto cursor-pointer"
               filled
               :fontControlled="false"
           /></NuxtLink>
-          <NuxtLink to="/memhir/waiting-private"
+          <NuxtLink to="/waiting-private"
             ><SvgoGooglePlay
               class="icon-rm-mg h-12 xl:h-20 w-auto cursor-pointer"
               filled
