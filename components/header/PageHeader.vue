@@ -51,7 +51,7 @@ export default {
       buttonClass:
         "py-1 px-2 sm:py-2 sm:px-4 lg:py-3 lg:px-4 font-body sm:text-sm md:text-base lg:text-lg main-button hover:main-hover",
       buttonText: "Get Started",
-      buttonLink: "/memhir/waiting-private",
+      buttonLink: "/waiting-private",
     };
   },
 };

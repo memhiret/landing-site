@@ -53,11 +53,7 @@ export default defineNuxtConfig({
     "~/assets/css/mytabs.css",
   ],
 
-  modules: [
-    "nuxt-svgo",
-    "@nuxt/content",
-    "@nuxt/image",
-  ],
+  modules: ["nuxt-svgo", "@nuxt/content", "@nuxt/image", "radix-vue/nuxt"],
 
   svgo: {
     autoImportPath: "./assets/svgs/",

@@ -9,20 +9,63 @@ export default {
   },
   data() {
     return {
-      buttonClass:
-        "mt-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg form-button main-button hover:main-hover",
-      buttonText: "Get a Quote",
+      isSubmitting: false,
       buttonClassMain:
         "mt-4 mb-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg alt-button hover:button-hover",
       buttonTextMain: "For Students",
-      buttonLinkMain: "/memhir/waiting-private",
+      buttonLinkMain: "/waiting-private",
       firstname: "",
       lastname: "",
       email: "",
       organization: "",
     };
   },
+  computed: {
+    buttonText() {
+      return this.isSubmitting ? "Submitting..." : "Join";
+    },
+    buttonClass() {
+      return this.isSubmitting
+        ? "mt-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg form-button main-button hover:main-hover opacity-50"
+        : "mt-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg form-button main-button hover:main-hover";
+    },
+  },
   methods: {
+    validateForm() {
+      const schema = z.object({
+        firstname: z
+          .string()
+          .min(2, "First name must be at least 2 characters")
+          .max(24, "First name must be at most 24 characters"),
+        lastname: z
+          .string()
+          .min(2, "Last name must be at least 2 characters")
+          .max(24, "Last name must be at most 24 characters"),
+        email: z.string().email("Invalid email address"),
+        organization: z.string().nonempty("Organization is required"),
+      });
+
+      try {
+        schema.parse({
+          firstname: this.firstname,
+          lastname: this.lastname,
+          email: this.email,
+          organization: this.organization,
+        });
+        return true;
+      } catch (e) {
+        const errorMessages = e.errors.map((err) => err.message).join("\n");
+        alert(errorMessages);
+        return false;
+      }
+    },
+    resetForm() {
+      this.firstname = "";
+      this.lastname = "";
+      this.email = "";
+      this.organization = "";
+      return;
+    },
     async submitForm() {
       try {
         const response = await fetch("https://submit-form.com/tZXD6hvP3", {
@@ -42,18 +85,12 @@ export default {
           alert("You'll be notified when we launch! Thank you for signing up!");
           this.$router.replace("/");
         } else {
-          this.firstname = "";
-          this.lastname = "";
-          this.email = "";
-          this.organization = "";
           alert("Failed to submit form!");
+          this.resetForm();
         }
       } catch (e) {
         alert("Error occured: ", e);
-        this.firstname = "";
-        this.lastname = "";
-        this.email = "";
-        this.organization = "";
+        this.resetForm();
       }
     },
   },

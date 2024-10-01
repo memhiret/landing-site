@@ -1,4 +1,5 @@
 <script>
+import { z } from "zod";
 import FormButton from "~/components/buttons/FormButton.vue";
 import MainButton from "~/components/buttons/MainButton.vue";
 
@@ -13,9 +14,11 @@ export default {
       buttonClassMain:
         "mt-4 mb-4 w-10/12 py-3 px-2 sm:py-4 sm:px-3 font-body sm:text-sm md:text-base lg:text-lg alt-button hover:button-hover",
       buttonTextMain: "For Educators",
-      buttonLinkMain: "/memhir/waiting-educator",
+      buttonLinkMain: "/waiting-educator",
       firstname: "",
       email: "",
+      phone: "",
+      apiUrl: process.env.VUE_APP_API_URL,
     };
   },
   computed: {
@@ -29,30 +32,67 @@ export default {
     },
   },
   methods: {
+    validateForm() {
+      const schema = z.object({
+        firstname: z
+          .string()
+          .min(2, "First name must be at least 2 characters")
+          .max(24, "First name must be at most 24 characters"),
+        email: z.string().email("Invalid email address"),
+        phone: z
+          .string()
+          .regex(
+            /^(?:\+2519\d{8}|\+2517\d{8}|09\d{8}|07\d{8})$/,
+            "Invalid phone number"
+          ),
+      });
+
+      try {
+        schema.parse({
+          firstname: this.firstname,
+          email: this.email,
+          phone: this.phone,
+        });
+        this.errors = {};
+        return true;
+      } catch (e) {
+        const errorMessages = e.errors.map((err) => err.message).join("\n");
+        alert(errorMessages);
+        return false;
+      }
+    },
     async submitForm() {
+      if (!this.validateForm()) {
+        return;
+      }
+
       try {
         this.isSubmitting = true;
-        const response = await fetch("https://submit-form.com/tqcy1I2SF", {
+        const response = await fetch(`${this.apiUrl}/user/early-access`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
             Accept: "application/json",
           },
           body: JSON.stringify({
-            firstname: this.firstname,
+            first_name: this.firstname,
             email: this.email,
+            phone: this.phone,
           }),
         });
-        if (response.ok) {
-          alert("You'll be notified when we launch! Thank you for signing up!");
+
+        if (response.status === 201) {
+          alert("You'll be notified soon! Thank you for signing up!");
           this.$router.replace("/");
         } else {
+          console.log(await response.json());
           alert("Failed to submit form!");
         }
       } catch (e) {
         alert("Error occured: ", e);
         this.firstname = "";
         this.email = "";
+        this.phone = "";
       } finally {
         this.isSubmitting = false;
       }
@@ -124,11 +164,24 @@ export default {
                 />
               </div>
             </div>
+            <div class="w-full">
+              <div class="mt-2 xl:mt-3">
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  v-model="phone"
+                  placeholder="Phone Number"
+                  class="block w-full rounded-md border-0 px-2 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-grokBlue-500"
+                  required
+                />
+              </div>
+            </div>
           </div>
           <FormButton
             :buttonClass="buttonClass"
             :buttonText="buttonText"
-            :disabled="isSubmitting"
+            :isSubmitting="isSubmitting"
           />
           <MainButton
             :buttonClass="buttonClassMain"
@@ -138,7 +191,7 @@ export default {
           <p
             class="lg:hidden desc-text text-base md:text-lg lg:text-xl xl:text-2xl text-center leading-loose"
           >
-            Get notified when we're ready.
+            Get early access
           </p>
         </form>
       </div>
