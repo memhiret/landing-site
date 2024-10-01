@@ -18,7 +18,7 @@ export default {
       firstname: "",
       email: "",
       phone: "",
-      apiUrl: process.env.VUE_APP_API_URL,
+      apiUrl: "https://test-stp.memhiret.com/api/v1",
     };
   },
   computed: {
@@ -61,6 +61,12 @@ export default {
         return false;
       }
     },
+    resetForm() {
+      this.firstname = "";
+      this.email = "";
+      this.phone = "";
+      return;
+    },
     async submitForm() {
       if (!this.validateForm()) {
         return;
@@ -83,18 +89,19 @@ export default {
 
         if (response.status === 201) {
           alert("You'll be notified soon! Thank you for signing up!");
+          this.resetForm();
           this.$router.replace("/");
         } else {
-          console.log(await response.json());
           alert("Failed to submit form!");
+          return;
         }
       } catch (e) {
         alert("Error occured: ", e);
-        this.firstname = "";
-        this.email = "";
-        this.phone = "";
+        this.resetForm();
+        return;
       } finally {
         this.isSubmitting = false;
+        return;
       }
     },
   },
