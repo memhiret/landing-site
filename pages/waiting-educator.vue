@@ -67,7 +67,11 @@ export default {
       return;
     },
     async submitForm() {
+      if (!this.validateForm()) {
+        return;
+      }
       try {
+        this.isSubmitting = true;
         const response = await fetch("https://submit-form.com/tZXD6hvP3", {
           method: "POST",
           headers: {
@@ -91,6 +95,8 @@ export default {
       } catch (e) {
         alert("Error occured: ", e);
         this.resetForm();
+      } finally {
+        this.isSubmitting = false;
       }
     },
   },
