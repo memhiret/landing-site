@@ -57,7 +57,7 @@
     </div>
 
     <div
-      class="lg:w-5/6 w-full xl:mt-8 flex flex-col item-start gap-6 md:gap-10"
+      class="lg:w-5/6 w-full mt-4 xl:mt-8 flex flex-col item-start gap-6 md:gap-10"
     >
       <p class="font-display font-semibold text-3xl lg:text-4xl xl:text-6xl">
         Vision
@@ -76,7 +76,7 @@
     </div>
 
     <div
-      class="lg:w-5/6 w-full lg:mt-10 xl:mt-20 flex flex-col md:flex-row items-start md:items-center md:gap-8 lg:gap-12"
+      class="lg:w-5/6 w-full mt-4 lg:mt-10 xl:mt-20 flex flex-col md:flex-row items-start md:items-center md:gap-8 lg:gap-12"
     >
       <div
         class="md:basis-1/2 flex flex-col items-start gap-6 md:gap-10 md:justify-between"
