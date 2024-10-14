@@ -18,12 +18,11 @@ export default {
       firstname: "",
       email: "",
       phone: "",
-      apiUrl: "https://test-stp.memhiret.com/api/v1",
     };
   },
   computed: {
     buttonText() {
-      return this.isSubmitting ? "Submitting..." : "Join";
+      return this.isSubmitting ? "Submitting..." : "Notify Me";
     },
     buttonClass() {
       return this.isSubmitting
@@ -74,7 +73,7 @@ export default {
 
       try {
         this.isSubmitting = true;
-        const response = await fetch(`${this.apiUrl}/user/early-access`, {
+        const response = await fetch("https://submit-form.com/tqcy1I2SF", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -87,7 +86,7 @@ export default {
           }),
         });
 
-        if (response.status === 201) {
+        if (response.ok) {
           alert("You'll be notified soon! Thank you for signing up!");
           this.resetForm();
           this.$router.replace("/");
@@ -198,7 +197,7 @@ export default {
           <p
             class="lg:hidden desc-text text-base md:text-lg lg:text-xl xl:text-2xl text-center leading-loose"
           >
-            Get early access
+            Early access is closed. Join the wait-list.
           </p>
         </form>
       </div>
