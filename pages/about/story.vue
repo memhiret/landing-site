@@ -4,6 +4,13 @@
     <Meta name="description" content="MemhirET's origin story and values." />
   </Head>
   <div class="mt-24 lg:mt-40 responsive-px py-4 col-flex">
+    <NuxtLink to="/demo" class="mb-8 lg:mb-4 w-5/6 text-black text-lg">
+      <div
+        class="font-body flex justify-center py-2 md:py-4 bg-grokBlue-500/40 rounded-lg glow-effect"
+      >
+        Checkout demo here
+      </div>
+    </NuxtLink>
     <div
       class="lg:w-5/6 w-full xl:mt-8 flex flex-col item-start gap-6 md:gap-10"
     >
@@ -22,7 +29,7 @@
           teacher support, Memhir ET is here to empower students on their
           academic journey.
         </p>
-        <div>
+        <div class="flex justify-center">
           <iframe
             class="W-full md:w-1/2"
             height="315"
@@ -109,6 +116,14 @@
       />
     </div>
 
+    <NuxtLink to="/demo" class="mb-8 lg:mb-4 w-5/6 text-black text-lg">
+      <div
+        class="font-body flex justify-center py-2 md:py-4 bg-grokBlue-500/40 rounded-lg glow-effect"
+      >
+        Checkout demo here
+      </div>
+    </NuxtLink>
+
     <div class="lg:w-5/6 w-full mt-10 lg:mt-28 divider"></div>
     <div
       class="lg:w-5/6 w-full mt-10 lg:mt-16 xl:mt-32 xl:mb-16 flex flex-col md:flex-row items-center gap-6 md:gap-8"
@@ -149,9 +164,28 @@
   </div>
 </template>
 
+<style scoped>
+.glow-effect {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-effect:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+
+.hover-effect {
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.hover-effect:hover {
+  color: white;
+  background-color: #007bff;
+}
+</style>
+
 <script>
 import MainButton from "~/components/buttons/MainButton.vue";
-import Thumnail from "~/assets/imgs/Thumbnail.png";
 
 export default {
   components: {

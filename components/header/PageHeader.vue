@@ -5,7 +5,11 @@
   >
     <!-- Header Logo -->
     <NuxtLink to="/">
-      <img src="~/assets/imgs/Memhir_LogoType_01-04.png" class="h-8 md:h-12 lg:h-14 xl:h-20" alt="MemhirET Logo"/>
+      <img
+        src="~/assets/imgs/Memhir_LogoType_01-04.png"
+        class="h-8 md:h-12 lg:h-14 xl:h-20"
+        alt="MemhirET Logo"
+      />
     </NuxtLink>
     <!-- Nav Links -->
     <div>
